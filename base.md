@@ -1,25 +1,22 @@
-# origen 
+# fuente 
 
 # ejercicio
 
-#### dificultad: facil 
+#### dificultad: fácil 
 
-## descripicion 
+## descripición 
 
 # ADCP
 
 ## (A)nalisis
 
 ###### entradas
-
-###### restricciones 
-
 ###### proceso
-
 ##### salida 
+###### restricciones 
 
 ## (D)iseño
 
-## (C)odificacion
+## (C)odificación
 
 ## (P)ruebas 
