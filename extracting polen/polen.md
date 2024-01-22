@@ -24,7 +24,7 @@ N numeros positivos
 
 ###### restricciones 
 N es un entero positivo 
-K es un entero positivo menos o igual a N
+K es un entero positivo menos o igual a 10000
 N numeros positivos menores a 999
 
 
@@ -66,7 +66,5 @@ for j in flores[0]:
     recolecta += int(j)
 print(recolecta)
 ```
-
-
 
 ## (P)ruebas 
