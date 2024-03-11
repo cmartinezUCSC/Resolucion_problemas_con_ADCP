@@ -58,7 +58,7 @@ for i in range(R):
     rev.append(int(input()))
 
 while(D>0 ): #esto pregunta escencialmente si nos queda energia para realizar alguna actividad
-    print(str(D) + " " + str(ago) + " "+ str(rev))
+    #print(str(D) + " " + str(ago) + " "+ str(rev)) #esta linea es para verificar que todo funcione bien y no deberia aparecer en la version final 
     if ago: # vemos si queda alguna actividad agotante, de esta forma revisara automaticamente el tamaño, si no queda nada sera falso
         if(D>=ago[0]):
             cant+=1
