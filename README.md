@@ -3,7 +3,7 @@
 ```markdown
 Bienvenido al fascinante mundo de la resolución de problemas mediante la metodología ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP)
 
-(o ADPT con su sigla en inglés) en el ámbito de la computación e informática. Este e-book está diseñado para aquellos estudiantes o personas en general que desean adentrarse en el arte de la programación, desarrollando habilidades para resolver desafíos mediante un enfoque lógico y sistemático.
+(o ADPT con su sigla en inglés) en el ámbito de la computación e informática. Este e-book está diseñado para aquellos estudianteso personas en general que desean adentrarse en el arte de la programación, desarrollando habilidades para resolver desafíos mediante un enfoque lógico y sistemático.
 
 En el mundo de la informática, la capacidad de resolver problemas de manera eficiente y estructurada es esencial. El método ADCP se convierte en una herramienta fundamental para los estudiantes, ya que les permite reducir problemas complejos en otros más pequeños y manejables, facilitando así la creación de soluciones algorítmicas.
 
