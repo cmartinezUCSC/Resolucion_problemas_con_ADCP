@@ -44,7 +44,7 @@ m*n
 m >0, n >0 (no negativos ≠ 0)
 
 # (D)iseño
-![](image.png)
+![](diagrama.png)
 
 # (C)odificación
 ```c
