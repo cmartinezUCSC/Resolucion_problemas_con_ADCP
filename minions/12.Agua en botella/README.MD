@@ -1,3 +1,4 @@
+
 # 12.Agua en bottella
 
 #### Dificultad: fácil
@@ -109,15 +110,15 @@ Escribir(Baldes)
 # (P)ruebas
 
 
-| Litros remanentes (C)  | Litros requeridos por persona(Ci)|	C - Ci  | C - Ci < 0 |	Baldes usados (B) |
-
-\|-----------------------|----------------------------------|-----------|------------|---------------------|
-
-|       10		         |		    2	                    |    8	    |    no	     | 		1             |
-
-|       8		         |		    6	                    |    2	    |    no	     | 		1             |
-
-|       2		         |		    7	                    |    -5	    |    si	     | 		2             |
+    | Litros remanentes (C)  | Litros requeridos por persona(Ci)|	C - Ci  | C - Ci < 0 |	Baldes usados (B) |
+    
+    |-----------------------|----------------------------------|-----------|------------|---------------------|
+    
+    |       10		         |		    2	                    |    8	    |    no	     | 		1             |
+    
+    |       8		         |		    6	                    |    2	    |    no	     | 		1             |
+    
+    |       2		         |		    7	                    |    -5	    |    si	     | 		2             |
 
 |       10		         |		    10	                    |    0	    |    si	     | 		3             |
 
