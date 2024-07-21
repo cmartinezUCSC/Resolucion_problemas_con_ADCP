@@ -75,15 +75,15 @@ if __name__ == "__main__":
 ```
 # (P)ruebas
 
-| 
-|Entrada (Minutos:Segundos) | Salida                           |
-\|--------------------------|-----------------------------------|
-
-| 2:30                      | 1500(m)/150(s)=10 m/s            |
-
-| 4:00                      |La velocidad promedio es 6.2 m/s  |
-
-| -3:00                     |Entrada errónea. ¡Reintente!      |
-
-| 0:0                       |cierre programa                   |
+        
+        |Entrada (Minutos:Segundos) | Salida                           |
+        |--------------------------|-----------------------------------|
+        
+        | 2:30                      | 1500(m)/150(s)=10 m/s            |
+        
+        | 4:00                      |La velocidad promedio es 6.2 m/s  |
+        
+        | -3:00                     |Entrada errónea. ¡Reintente!      |
+        
+        | 0:0                       |cierre programa                   |
 
