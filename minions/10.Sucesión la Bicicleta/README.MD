@@ -78,16 +78,16 @@ FinAlgoritmo
 ```
 # (P)ruebas
 
-|      Entrada |     Salida           |
-\|-------------|-----------------------|
-
-| 0            |Error debe ser >=3    |
-
-| 3            |2, 3, 2               |
-
-| 7            | 2, 3, 2, 1, 1, 2, 3… |
-
-| -1           |Error debe ser >=3    |
+    |     Entrada  |     Salida           |
+    |-------------|-----------------------|
+    
+    | 0            |Error debe ser >=3    |
+    
+    | 3            |2, 3, 2               |
+    
+    | 7            | 2, 3, 2, 1, 1, 2, 3… |
+    
+    | -1           |Error debe ser >=3    |
 
 
 
