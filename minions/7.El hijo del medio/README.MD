@@ -82,7 +82,7 @@ escenario 6: b<c<a
 ```
 # (P)ruebas (cambiando la ubicación del hijo del medio)
  
-    |       Entradas 	    | Salida                 |
+    |       Entradas 	    | Salida             |
     
     |       a    b    c   |
     
