@@ -22,17 +22,17 @@ Se te ha asignado la tarea de desarrollar una solución que implemente un algori
     
     Vegeta, 11000, -1, 0
 
-    Reglas:
+Reglas:
     
-    •	Si el nivel de poder es mayor a 9000, el personaje se considera un "Héroe".
+•	Si el nivel de poder es mayor a 9000, el personaje se considera un "Héroe".
     
-    •	Si la actitud es positiva (1) y la historia pasada es heroica (0), el personaje se considera un "Héroe".
-    
-    •	En todos los demás casos, el personaje se considera un "Villano".
-    
-    •	El algoritmo de clasificación debe implementarse en la función clasificarPersonaje (C y Python). 
-        Los resultados se imprimen en la consola, indicando si cada personaje es un "Héroe" o un "Villano". 
-        Los datos de entrenamiento deben ser inicializados durante la codificación del programa.
+•	Si la actitud es positiva (1) y la historia pasada es heroica (0), el personaje se considera un "Héroe".
+
+•	En todos los demás casos, el personaje se considera un "Villano".
+
+•	El algoritmo de clasificación debe implementarse en la función clasificarPersonaje (C y Python). 
+    Los resultados se imprimen en la consola, indicando si cada personaje es un "Héroe" o un "Villano". 
+    Los datos de entrenamiento deben ser inicializados durante la codificación del programa.
  
 
 
