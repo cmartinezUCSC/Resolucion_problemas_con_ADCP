@@ -116,7 +116,7 @@ Para cada caso de prueba, imprima un número entero positivo que represente la c
 
     | Litros remanentes (C)  | Litros requeridos por persona(Ci)|	C - Ci  | C - Ci < 0 |	Baldes usados (B) |
     
-    |------------------------|----------------------------------|-----------|------------|---------------------|
+    |------------------------|----------------------------------|-----------|------------|--------------------|
     
     |       10		 |		    2	            |    8      |    no	     | 		1        |
     
