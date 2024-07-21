@@ -27,8 +27,8 @@ La segunda línea contiene n números enteros ci (1≤ ci ≤103), i=1..n
     
     4 1
     
-    1. 6 4 5
-    1. 10
+    1 6 4 5
+    1 10
     
     5 2
     
