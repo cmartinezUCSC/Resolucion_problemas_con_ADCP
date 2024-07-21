@@ -38,7 +38,7 @@ Implemente un algoritmo que permita obtener las parejas de números amigos menor
     
         Si (k MOD i=0) Entonces
                     S1 <- S1+i; //acumulará a los divisores de k
-                FinSi
+        FinSi
 
 ###### Salida: números amigos (i,k)
 
