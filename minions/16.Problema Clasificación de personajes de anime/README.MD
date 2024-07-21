@@ -45,13 +45,16 @@ Reglas:
 
 ###### Proceso mental: En el contexto de machine learning o aprendizaje de máquina, el algoritmo de clasificación utilizado en este problema es bastante simple y se basa en reglas condicionales. Ilustra el concepto de tomar decisiones automáticas basadas en características específicas.
 
-El algoritmo de clasificación sigue estas reglas:
+        El algoritmo de clasificación sigue estas reglas:
 
-1.	Si el nivel de poder del personaje es mayor a 9000, se clasifica como "Héroe".
-2.	Si la actitud del personaje es positiva (1) y su historia pasada es heroica (0), también se clasifica como "Héroe".
-3.	En todos los demás casos, el personaje se clasifica como "Villano".
+    1.	Si el nivel de poder del personaje es mayor a 9000, se clasifica como "Héroe".
+    
+    2.	Si la actitud del personaje es positiva (1) y su historia pasada es heroica (0), también se clasifica como "Héroe".
+    
+    3.	En todos los demás casos, el personaje se clasifica como "Villano".
 
-Estas reglas se establecen mediante la observación de los datos de entrenamiento proporcionados. El objetivo es hacer que el modelo (en este caso, las reglas condicionales) capture patrones en los datos que permitan realizar predicciones sobre nuevos datos. En un contexto más amplio de machine learning, los algoritmos de clasificación a menudo aprenden automáticamente estas reglas a partir de datos de entrenamiento más extensos. Algoritmos más avanzados, como los clasificadores de regresión logística, máquinas de soporte vectorial (SVM) o redes neuronales (NN), utilizan métodos más complejos para ajustar los parámetros del modelo y adaptarse a patrones en los datos.
+    Estas reglas se establecen mediante la observación de los datos de entrenamiento proporcionados. El objetivo es hacer que el modelo (en este caso, 
+    las reglas condicionales) capture patrones en los datos que permitan realizar predicciones sobre nuevos datos. En un contexto más amplio de machine         learning, los algoritmos de clasificación a menudo aprenden automáticamente estas reglas a partir de datos de entrenamiento más extensos. Algoritmos más     avanzados, como los clasificadores de regresión logística, máquinas de soporte vectorial (SVM) o redes neuronales (NN), utilizan métodos más complejos         para ajustar los parámetros del modelo y adaptarse a patrones en los datos.
 
 
 ###### Salida: 
