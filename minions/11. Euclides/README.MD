@@ -18,11 +18,11 @@
     
     El MCD es una noción importante en la teoría de números y tiene varias aplicaciones en matemáticas y ciencias computacionales, como en simplificación de fracciones, criptografía, algoritmos de optimización, entre otros. El algoritmo de Euclides es un método antiguo y eficaz para calcular el máximo común divisor (MCD).
 
-¿Qué es la divisibilidad? se dice que m es divisible por 
+    ¿Qué es la divisibilidad? se dice que m es divisible por 
 
     i si (m mod i=0)
 
-¿Cómo se describiría en lenguaje natural?
+    ¿Cómo se describiría en lenguaje natural?
 
     paso 1 Leer m, n
 
