@@ -82,22 +82,22 @@ escenario 6: b<c<a
 ```
 # (P)ruebas (cambiando la ubicación del hijo del medio)
  
- |       Entradas 	    | Salida                 |
- 
- |       a    b    c   |
- 
- |----------------------|-------------------------|
- 
- |      10    5    15    | el hijo del medio es 10|
- 
- |      10    15   5     | el hijo del medio es 10|
- 
- |      5     10   15    | el hijo del medio es 10|
- 
- |      15    10   5     | el hijo del medio es 10|
- 
- |      5     20   10    | el hijo del medio es 10|
- 
- |      20    5    10    | el hijo del medio es 10|
+   |       Entradas 	    | Salida                 |
+   
+   |       a    b    c   |
+   
+   |----------------------|-------------------------|
+   
+   |      10    5    15    | el hijo del medio es 10|
+   
+   |      10    15   5     | el hijo del medio es 10|
+   
+   |      5     10   15    | el hijo del medio es 10|
+   
+   |      15    10   5     | el hijo del medio es 10|
+   
+   |      5     20   10    | el hijo del medio es 10|
+   
+   |      20    5    10    | el hijo del medio es 10|
 
 
