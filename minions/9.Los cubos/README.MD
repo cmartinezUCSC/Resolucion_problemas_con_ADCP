@@ -84,14 +84,14 @@ A partir del 11, se suma los 4 siguientes impares: 13,15,17,19. Sumando ambos se
 ```
 # (P)ruebas
 
-|      Entrada |     Salida         |
-\|-------------|---------------------|
-
-| 0            |Ingrese un número >0|
-
-| 25           | 15625              |
-
-| 33           | 35937              |
-
-| -1           |Ingrese un número >0|
+	|      Entrada |     Salida         |
+	|-------------|---------------------|
+	
+	| 0            |Ingrese un número >0|
+	
+	| 25           | 15625              |
+	
+	| 33           | 35937              |
+	
+	| -1           |Ingrese un número >0|
 
