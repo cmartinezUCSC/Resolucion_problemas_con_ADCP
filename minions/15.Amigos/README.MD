@@ -32,8 +32,9 @@ Implemente un algoritmo que permita obtener las parejas de números amigos menor
     Ahora bien, ¿cómo generar números entre 1 y m?
 
         Para k=1, m hacer //generará números de [1..m]
+            
             Para i=1 hasta k-1 hacer //Generará números entre [1..k-1]
-        Y aplicando la regla de divisores
+            Y aplicando la regla de divisores
     
         Si (k MOD i=0) Entonces
                     S1 <- S1+i; //acumulará a los divisores de k
