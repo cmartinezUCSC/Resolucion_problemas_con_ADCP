@@ -14,14 +14,14 @@
 ###### Proceso mental: ¿Debería hacer la transformación de minutos a segundos? ¿Cómo lo hago? ¿Cómo obtener la velocidad?  ¿Debería saber cuántos corredores participaron en la ruta? 
 *Imaginemos un ejemplo en las entradas: (tiempo que se demoraron en completar los 1500 metros un grupo de 4 participantes)*
 
-|      Minutos:Segundos | Velocidad (m/s)         |
-\|----------------------|--------------------------|
-
-| 2:30                  | 1500(m)/150(s)=10 m/s   |
-
-| 3:00                  |1500(m)/180(s)=8.33 m/s  |
-
-| 1:58                  |1500(m)/118(s)=12.71 m/s |
+        |      Minutos:Segundos | Velocidad (m/s)         |
+        |----------------------|--------------------------|
+        
+        | 2:30                  | 1500(m)/150(s)=10 m/s   |
+        
+        | 3:00                  |1500(m)/180(s)=8.33 m/s  |
+        
+        | 1:58                  |1500(m)/118(s)=12.71 m/s |
 
 | 3:01                  |1500(m)/181(s)=8.28 m/s  |
 
