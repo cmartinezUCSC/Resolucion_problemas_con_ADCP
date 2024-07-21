@@ -7,15 +7,15 @@
 Alice, Bob y Cindy han decidido irse de viaje por las fiestas! Mientras el resto de sus amigos han ido a vacacionar a Japón y Europa, estos tres amigos han decidido una alternativa más divertida (y económica), explorar las filipinas en grupo. Por pura coincidencia los 3 compraron la misma maleta para llevarla al viaje. Por buena suerte todos decidieron rotular sus maletas con su nombre (estas etiquetas distinguen entre mayúsculas y minúsculas). Por desgracia en estas etiquetas se han ido borrando algunas letras con el tiempo, al menos tienes asegurado que el largo de la palabra se mantiene, Ayudémosles a que pasen unas vacaciones libres de estrés escribiendo un programa que identifique al dueño de la maleta una etiqueta poco legible asumiendo que el dueño es Alice, Bob o Cindy.
 
 
-  | Entrada  | Salida             |
-  
-  |----------|--------------------|
-  
-  |Ali.e     |Alice               |
-  
-  | bob      | SOMETHING'S WRONG  |
-  
-  | .i...    | Cindy              |
+      | Entrada  | Salida             |
+      
+      |----------|--------------------|
+      
+      |Ali.e     |Alice               |
+      
+      | bob      | SOMETHING'S WRONG  |
+      
+      | .i...    | Cindy              |
 
 
 # Solución ADCP
