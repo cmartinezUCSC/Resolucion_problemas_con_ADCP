@@ -9,19 +9,19 @@
 
 
 
-| Entrada  | Salida                    |
+    | Entrada  | Salida                    |
 
-\|----------|---------------------------|
+    |----------|---------------------------|
 
-| 2, 8     | 16                        |
+    | 2, 8     | 16                        |
 
-| 5, 11    | 55                        |
+    | 5, 11    | 55                        |
 
-| 0, 12    | Error, debe ser >0        |
+    | 0, 12    | Error, debe ser >0        |
 
-| 144, 0   | Error, debe ser >0        |
+    | 144, 0   | Error, debe ser >0        |
 
-| -1, 5    | Error, debe ser >0        |
+    | -1, 5    | Error, debe ser >0        |
 
 
 # ADCP
@@ -118,19 +118,19 @@ if __name__ == "__main__":
 # (P)ruebas
 
 
-| Entrada  | Salida                    |
-
-\|----------|---------------------------|
-
-| 2, 8     | 16                        |
-
-| 5, 11    | 55                        |
-
-| 0, 12    | Error, debe ser >0        |
-
-| 144, 0   | Error, debe ser >0        |
-
-| -1, 5    | Error, debe ser >0        |
+    | Entrada  | Salida                    |
+    
+    |----------|---------------------------|
+    
+    | 2, 8     | 16                        |
+    
+    | 5, 11    | 55                        |
+    
+    | 0, 12    | Error, debe ser >0        |
+    
+    | 144, 0   | Error, debe ser >0        |
+    
+    | -1, 5    | Error, debe ser >0        |
 
 
 
