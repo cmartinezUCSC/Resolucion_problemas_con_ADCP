@@ -15,7 +15,8 @@
 ###### Proceso mental: 
 
     ¿máximo común divisor? El máximo común divisor (MCD) es el mayor número entero que divide exactamente a dos o más números enteros sin dejar residuo. En      otras palabras, es el número más grande que es un divisor común a todos los números dados.
-    El MCD es una noción importante en la teoría de números y tiene varias aplicaciones en matemáticas y ciencias computacionales, como en simplificación de     fracciones, criptografía, algoritmos de optimización, entre otros. El algoritmo de Euclides es un método antiguo y eficaz para calcular el máximo común      divisor (MCD).
+    
+El MCD es una noción importante en la teoría de números y tiene varias aplicaciones en matemáticas y ciencias computacionales, como en simplificación de     fracciones, criptografía, algoritmos de optimización, entre otros. El algoritmo de Euclides es un método antiguo y eficaz para calcular el máximo común      divisor (MCD).
 
 ¿Qué es la divisibilidad? se dice que m es divisible por 
 
