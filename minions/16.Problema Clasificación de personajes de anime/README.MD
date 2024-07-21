@@ -31,8 +31,8 @@ Reglas:
 •	En todos los demás casos, el personaje se considera un "Villano".
 
 •	El algoritmo de clasificación debe implementarse en la función clasificarPersonaje (C y Python). 
-        Los resultados se imprimen en la consola, indicando si cada personaje es un "Héroe" o un "Villano". 
-        Los datos de entrenamiento deben ser inicializados durante la codificación del programa.
+Los resultados se imprimen en la consola, indicando si cada personaje es un "Héroe" o un "Villano". 
+Los datos de entrenamiento deben ser inicializados durante la codificación del programa.
  
 
 
