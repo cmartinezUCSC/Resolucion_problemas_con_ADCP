@@ -24,9 +24,14 @@ Vegeta, 11000, -1, 0
 
 Reglas:
 •	Si el nivel de poder es mayor a 9000, el personaje se considera un "Héroe".
+
 •	Si la actitud es positiva (1) y la historia pasada es heroica (0), el personaje se considera un "Héroe".
+
 •	En todos los demás casos, el personaje se considera un "Villano".
-•	El algoritmo de clasificación debe implementarse en la función clasificarPersonaje (C y Python). Los resultados se imprimen en la consola, indicando si cada personaje es un "Héroe" o un "Villano". Los datos de entrenamiento deben ser inicializados durante la codificación del programa.
+
+•	El algoritmo de clasificación debe implementarse en la función clasificarPersonaje (C y Python). 
+    Los resultados se imprimen en la consola, indicando si cada personaje es un "Héroe" o un "Villano". 
+    Los datos de entrenamiento deben ser inicializados durante la codificación del programa.
  
 
 
@@ -60,8 +65,8 @@ Estas reglas se establecen mediante la observación de los datos de entrenamient
 ![](Imagen.png)
 ![](Imagen2.png)
 
-**Observe que en este caso, se declaró una función denominada ClasificaPersonaje con 4 parámetros de entrada nombre, poder, actitud, historia, parámetros que son evaluados según las reglas de clasificación para determinar si el personaje es héroe o villano, de esta manera la función retorna la clasificación realizada. Este resultado es recepcionado por el algoritmo principal ClasificarPersonaje en la llamada que realiza a la función en la línea 5: ClasificaPersonaje(nombre, poder, actitud, historia). La idea de definir una función es externalizar la tarea específica y permite que un futuro se pueda llamar las veces que sea necesaria sin repetir código.** 
- 
+    Observe que en este caso, se declaró una función denominada ClasificaPersonaje con 4 parámetros de entrada nombre, poder, actitud, historia,                 parámetros que son evaluados según las reglas de clasificación para determinar si el personaje es héroe o villano, de esta manera la función retorna la     clasificación realizada. Este resultado es recepcionado por el algoritmo principal ClasificarPersonaje en la llamada que realiza a la función en la línea     5: ClasificaPersonaje(nombre, poder, actitud, historia). La idea de definir una función es externalizar la tarea específica y permite que un futuro se        pueda llamar las veces que sea necesaria sin repetir código.** 
+         
 
 # (C)odificación Py:
 ```py
