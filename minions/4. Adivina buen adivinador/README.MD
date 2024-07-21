@@ -62,7 +62,7 @@ ese número hasta que lo encuentre o bien hasta que se le acaben las oportunidad
 
 
 ## En Diagrama N-S
-![](imagen1.png)
+![](Imagen1.png)
 
 
 # (C)odificación Py:
