@@ -19,22 +19,22 @@ La primera línea contiene dos números enteros n, C (1 ≤ ∑n ≤ 106,1≤ C 
 
 La segunda línea contiene n números enteros ci (1≤ ci ≤103), i=1..n
 
-4
-
-3 1
-
-6 4 5
-
-4 1
-
-1. 6 4 5
-1. 10
-
-5 2
-
-5 10
-
-8 6 7 10 2
+    4
+    
+    3 1
+    
+    6 4 5
+    
+    4 1
+    
+    1. 6 4 5
+    1. 10
+    
+    5 2
+    
+    5 10
+    
+    8 6 7 10 2
 
 Salida
 
