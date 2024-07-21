@@ -23,6 +23,7 @@ Sasuke, 8500, -1, 1
 Vegeta, 11000, -1, 0
 
 Reglas:
+
 •	Si el nivel de poder es mayor a 9000, el personaje se considera un "Héroe".
 
 •	Si la actitud es positiva (1) y la historia pasada es heroica (0), el personaje se considera un "Héroe".
