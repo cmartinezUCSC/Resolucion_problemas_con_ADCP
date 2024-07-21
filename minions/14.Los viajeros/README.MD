@@ -81,7 +81,7 @@ S debe tener entre 1 a 5 caracteres, estos caracteres deben ser caracteres alfab
 
 ## En Diagrama N-S
 
-![](imagen.png)
+![](Imagen.png)
 
 # (C)odificación Py:
 ```py
