@@ -42,20 +42,20 @@ i si (m mod i=0)
 
 ## DISEÑO (pseudoCódigo)
 
-Algoritmo Euclides
-    leer m,n
-    si n<=m Entonces
-        final=n
-    sino
-        final=m
-    FinSi
-    Para i=1 hasta final hacer//excluir el 1
-        si(n%i=0 y m%i=0) entonces
-            maximo=i;
-        Finsi
-    FinPara
-    Escribir "Máximo comun:",maximo;
-FinAlgoritmo
+    Algoritmo Euclides
+        leer m,n
+        si n<=m Entonces
+            final=n
+        sino
+            final=m
+        FinSi
+        Para i=1 hasta final hacer//excluir el 1
+            si(n%i=0 y m%i=0) entonces
+                maximo=i;
+            Finsi
+        FinPara
+        Escribir "Máximo comun:",maximo;
+    FinAlgoritmo
 
 # (C)odificación Py:
 ```py
