@@ -30,8 +30,8 @@ Los lenguajes de programación suelen ofrecer funciones o librerías para genera
 o equivalente según el lenguaje de programación). Estos números son utilizados para diversas aplicaciones, como la generación 
 de datos para pruebas, simulaciones, criptografía, juegos, entre otros.
 
-    El usuario debe intentar adivinar el número (azar) que se generó previamente, y orientar al usuario que tan cerca está de 
-    ese número hasta que lo encuentre o bien hasta que se le acaben las oportunidades, definir número de oportunidades.
+El usuario debe intentar adivinar el número (azar) que se generó previamente, y orientar al usuario que tan cerca está de 
+ese número hasta que lo encuentre o bien hasta que se le acaben las oportunidades, definir número de oportunidades.
 
 
 ###### Salida: Mensaje de éxito si adivina, mensaje de orientación si no, al agotar las oportunidades mensaje de fracaso.
