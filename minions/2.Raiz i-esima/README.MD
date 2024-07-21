@@ -7,19 +7,19 @@
 
 *Se desea determinar la raíz i-ésima, i>0 de un valor n ingresado. Para ello, el usuario ingresará 2 números, donde el primer término es el número al que se le calculará la raíz y el segundo el valor de i. El resultado de la operación debe generarse con 3 cifras decimales.*
 
-| Entrada  | Salida                    |
-
-\|----------|---------------------------|
-
-| 1427,3    | 11.258                   |
-
-| 52538,2   | 229.212                  |
-
-| 144, 0    | Error, debe ser >0       |
-
-| 27, 3     | Error, debe ser >= 0     |
-
-| 0,3       | 0.000                    |
+		| Entrada  | Salida                    |
+		
+		|----------|---------------------------|
+		
+		| 1427,3    | 11.258                   |
+		
+		| 52538,2   | 229.212                  |
+		
+		| 144, 0    | Error, debe ser >0       |
+		
+		| 27, 3     | Error, debe ser >= 0     |
+		
+		| 0,3       | 0.000                    |
 
 
 
@@ -144,16 +144,16 @@ n debe ser mayor que 0, para evitar raíces
 # (P)ruebas
 
 
-| Entrada  | Salida                    |
-
-\|----------|---------------------------|
-
-| 1427,3    | 11.258                   |
-
-| 52538,2   | 229.212                  |
-
-| 144, 0    | Error, debe ser >0       |
-
-| -27, 3    | Error, debe ser >= 0     |
-
-| 0,3       | 0.000                    |
+		| Entrada  | Salida                    |
+		
+		|----------|---------------------------|
+		
+		| 1427,3    | 11.258                   |
+		
+		| 52538,2   | 229.212                  |
+		
+		| 144, 0    | Error, debe ser >0       |
+		
+		| -27, 3    | Error, debe ser >= 0     |
+		
+		| 0,3       | 0.000                    |
