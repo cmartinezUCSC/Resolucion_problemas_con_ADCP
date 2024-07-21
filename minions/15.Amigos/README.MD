@@ -1,4 +1,4 @@
-# 15:Amigos
+# 15.Amigos
 
 #### Dificultad: fácil
 
