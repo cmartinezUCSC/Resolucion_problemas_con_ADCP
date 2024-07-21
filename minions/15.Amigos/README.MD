@@ -18,25 +18,26 @@ Implemente un algoritmo que permita obtener las parejas de números amigos menor
 # Solución ADCP
 
 # (A)NÁLISIS
+
 ###### Entradas: Cota superior (m)
 
 
 ###### Proceso mental:
 
-¿Cómo se obtiene el divisor de un número?, si (K MOD  i = 0 )  con i=5, n  significa que k es divisible por 5
-¿cómo se obtienen números amigos k, i? si suma divisores de k = suma divisores de i con k ≤ m e i<k
+    ¿Cómo se obtiene el divisor de un número?, si (K MOD  i = 0 )  con i=5, n  significa que k es divisible por 5
+    ¿cómo se obtienen números amigos k, i? si suma divisores de k = suma divisores de i con k ≤ m e i<k
+    
+    Recuerde que: (a MOD b) es el resto de la división entera entre a y b, también conocido como operador módulo.
+    
+    Ahora bien, ¿cómo generar números entre 1 y m?
 
-Recuerde que: (a MOD b) es el resto de la división entera entre a y b, también conocido como operador módulo.
-
-Ahora bien, ¿cómo generar números entre 1 y m?
-
-    Para k=1, m hacer //generará números de [1..m]
-        Para i=1 hasta k-1 hacer //Generará números entre [1..k-1]
-    Y aplicando la regla de divisores
-
-    Si (k MOD i=0) Entonces
-                S1 <- S1+i; //acumulará a los divisores de k
-            FinSi
+        Para k=1, m hacer //generará números de [1..m]
+            Para i=1 hasta k-1 hacer //Generará números entre [1..k-1]
+        Y aplicando la regla de divisores
+    
+        Si (k MOD i=0) Entonces
+                    S1 <- S1+i; //acumulará a los divisores de k
+                FinSi
 
 ###### Salida: números amigos (i,k)
 
@@ -90,24 +91,24 @@ Ahora bien, ¿cómo generar números entre 1 y m?
 ```
 # (P)ruebas
 
-
-| m        | amigo 1                                                |   amigo 2                                             | 
-
-\|----------|--------------------------------------------------------|-------------------------------------------------------|
-
-|   290    |	220                                                 |            284                                        |  
-
-|   1300   |    220, 1184                                           |           284, 1210                                   |  
-
-|   -1     |   ¡Error! m debe ser >0                                |        	                                            |  
-
-|   2950   |    220, 1184                                           |           284, 1210                                   |  
-
-|   1000   |220, 1184, 2620                                         |       284, 1210, 2924                                 |
-
-|   1000   |220, 1184, 2620, 5020, 6232, 10744, 12285, 17296, 63020,|284, 1210, 2924,5564, 6368, 10856, 14595,18416, 76084, |
-|          |66928, 67095, 69615, 71145, 76084, 79750, 87633, 88730  | 66992, 71145, 87633, 67095, 63020, 88730, 69615, 79750|  
-
+    
+    | m        | amigo 1                                                |   amigo 2                                             | 
+    
+    |----------|--------------------------------------------------------|-------------------------------------------------------|
+    
+    |   290    |	220                                                 |            284                                        |  
+    
+    |   1300   |    220, 1184                                           |           284, 1210                                   |  
+    
+    |   -1     |   ¡Error! m debe ser >0                                |        	                                            |  
+    
+    |   2950   |    220, 1184                                           |           284, 1210                                   |  
+    
+    |   1000   |220, 1184, 2620                                         |       284, 1210, 2924                                 |
+    
+    |   1000   |220, 1184, 2620, 5020, 6232, 10744, 12285, 17296, 63020,|284, 1210, 2924,5564, 6368, 10856, 14595,18416, 76084, |
+    |          |66928, 67095, 69615, 71145, 76084, 79750, 87633, 88730  | 66992, 71145, 87633, 67095, 63020, 88730, 69615, 79750|  
+    
 
 
 
