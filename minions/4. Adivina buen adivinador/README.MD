@@ -13,15 +13,24 @@
 ###### Entradas:   Número n del jugador A por cada intento de adivinar. 
 
 **Proceso mental:**
-    ¿Qué es un número aleatorio? ¿Cómo se genera?  Un número aleatorio es un valor numérico que es seleccionado al azar o de manera impredecible a partir de un rango o conjunto de valores posibles. La generación de números aleatorios es fundamental en diversas áreas, como la estadística, la programación, la simulación, los juegos, entre otros campos.
+    ¿Qué es un número aleatorio? ¿Cómo se genera?  Un número aleatorio es un valor numérico que es seleccionado al azar o de manera 
+    impredecible a partir de un rango o conjunto de valores posibles. La generación de números aleatorios es fundamental en diversas áreas, 
+    como la estadística, la programación, la simulación, los juegos, entre otros campos.
 
-    Es esencial que los números aleatorios sean impredecibles y equitativos, es decir, que tengan la misma probabilidad de ser seleccionados dentro de un rango específico. La aleatoriedad se logra utilizando algoritmos o procesos que generan secuencias de números que aparentemente no siguen un patrón discernible.
+    Es esencial que los números aleatorios sean impredecibles y equitativos, es decir, que tengan la misma probabilidad de
+    ser seleccionados dentro de un rango específico. La aleatoriedad se logra utilizando algoritmos o procesos que generan 
+    secuencias de números que aparentemente no siguen un patrón discernible.
 
-    En la práctica, los números aleatorios se generan utilizando algoritmos de generación de números pseudoaleatorios en la mayoría de las computadoras. Estos algoritmos producen secuencias de números que parecen ser aleatorios, pero en realidad son deterministas: si se inicia con la misma semilla (un valor inicial), se generará la misma secuencia de números.
+    En la práctica, los números aleatorios se generan utilizando algoritmos de generación de números pseudoaleatorios en 
+    la mayoría de las computadoras. Estos algoritmos producen secuencias de números que parecen ser aleatorios, pero en realidad 
+    son deterministas: si se inicia con la misma semilla (un valor inicial), se generará la misma secuencia de números.
 
-    Los lenguajes de programación suelen ofrecer funciones o librerías para generar números aleatorios (función random o rand o equivalente según el lenguaje de programación). Estos números son utilizados para diversas aplicaciones, como la generación de datos para pruebas, simulaciones, criptografía, juegos, entre otros.
+    Los lenguajes de programación suelen ofrecer funciones o librerías para generar números aleatorios (función random o rand 
+    o equivalente según el lenguaje de programación). Estos números son utilizados para diversas aplicaciones, como la generación 
+    de datos para pruebas, simulaciones, criptografía, juegos, entre otros.
 
-    El usuario debe intentar adivinar el número (azar) que se generó previamente, y orientar al usuario que tan cerca está de ese número hasta que lo encuentre o bien hasta que se le acaben las oportunidades, definir número de oportunidades.
+    El usuario debe intentar adivinar el número (azar) que se generó previamente, y orientar al usuario que tan cerca está de 
+    ese número hasta que lo encuentre o bien hasta que se le acaben las oportunidades, definir número de oportunidades.
 
 
 ###### Salida: Mensaje de éxito si adivina, mensaje de orientación si no, al agotar las oportunidades mensaje de fracaso.
@@ -73,14 +82,14 @@ if __name__=="__main__":
 ```
 # (P)ruebas
 
-|      Entrada                     | Salida                                               |
- (considerando que generado = 55)
-\|---------------------------------|-------------------------------------------------------|
-
-| -1                               | El número no está en el rango de juego               |
-
-| 54                               |El número por adivinar es mayor que el que ingresaste |
-
-| 100                              |El número por adivinar es menor que el que ingresaste |
-
-| 55                               |¡¡Felicidades, has adivinado!!                        |
+    |      Entrada                     | Salida                                               |
+     (considerando que generado = 55)
+    |---------------------------------|-------------------------------------------------------|
+    
+    | -1                               | El número no está en el rango de juego               |
+    
+    | 54                               |El número por adivinar es mayor que el que ingresaste |
+    
+    | 100                              |El número por adivinar es menor que el que ingresaste |
+    
+    | 55                               |¡¡Felicidades, has adivinado!!                        |
