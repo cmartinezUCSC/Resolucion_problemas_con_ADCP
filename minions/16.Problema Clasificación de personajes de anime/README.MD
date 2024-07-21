@@ -53,8 +53,13 @@ Reglas:
     
     3.	En todos los demás casos, el personaje se clasifica como "Villano".
 
-    Estas reglas se establecen mediante la observación de los datos de entrenamiento proporcionados. El objetivo es hacer que el modelo (en este caso, 
-    las reglas condicionales) capture patrones en los datos que permitan realizar predicciones sobre nuevos datos. En un contexto más amplio de machine         learning, los algoritmos de clasificación a menudo aprenden automáticamente estas reglas a partir de datos de entrenamiento más extensos. Algoritmos más     avanzados, como los clasificadores de regresión logística, máquinas de soporte vectorial (SVM) o redes neuronales (NN), utilizan métodos más complejos         para ajustar los parámetros del modelo y adaptarse a patrones en los datos.
+    Estas reglas se establecen mediante la observación de los datos de entrenamiento proporcionados. 
+    El objetivo es hacer que el modelo (en este caso, las reglas condicionales) capture patrones en 
+    los datos que permitan realizar predicciones sobre nuevos datos. En un contexto más amplio de machine 
+    learning, los algoritmos de clasificación a menudo aprenden automáticamente estas reglas a partir de datos 
+    de entrenamiento más extensos. Algoritmos más avanzados, como los clasificadores de regresión logística,
+    máquinas de soporte vectorial (SVM) o redes neuronales (NN), utilizan métodos más complejos para ajustar 
+    los parámetros del modelo y adaptarse a patrones en los datos.
 
 
 ###### Salida: 
@@ -69,7 +74,12 @@ Reglas:
 ![](Imagen.png)
 ![](Imagen2.png)
 
-    Observe que en este caso, se declaró una función denominada ClasificaPersonaje con 4 parámetros de entrada nombre, poder, actitud, historia,                 parámetros que son evaluados según las reglas de clasificación para determinar si el personaje es héroe o villano, de esta manera la función retorna la     clasificación realizada. Este resultado es recepcionado por el algoritmo principal ClasificarPersonaje en la llamada que realiza a la función en la línea     5: ClasificaPersonaje(nombre, poder, actitud, historia). La idea de definir una función es externalizar la tarea específica y permite que un futuro se        pueda llamar las veces que sea necesaria sin repetir código.** 
+    Observe que en este caso, se declaró una función denominada ClasificaPersonaje con 4 parámetros de entrada nombre, 
+    poder, actitud, historia, parámetros que son evaluados según las reglas de clasificación para determinar si el 
+    personaje es héroe o villano, de esta manera la función retorna la clasificación realizada. Este resultado es 
+    recepcionado por el algoritmo principal ClasificarPersonaje en la llamada que realiza a la función en la 
+    línea 5: ClasificaPersonaje(nombre, poder, actitud, historia). La idea de definir una función es externalizar 
+    la tarea específica y permite que un futuro se pueda llamar las veces que sea necesaria sin repetir código.** 
          
 
 # (C)odificación Py:
