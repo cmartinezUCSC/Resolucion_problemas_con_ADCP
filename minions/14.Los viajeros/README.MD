@@ -29,8 +29,8 @@ Alice, Bob y Cindy han decidido irse de viaje por las fiestas! Mientras el resto
 
         Lo primero que podemos filtrar, es el caso de que el nombre ingresado devuelva "SOMETHING'S WRONG", eso en primer momento lo 
         podemos solucionar de forma muy sencilla con una pregunta, ¿el string que nos entregan tiene 3 ó 5 caracteres? si la 
-        respuesta es no, imprimimos "SOMETHING'S WRONG" y terminaríamos el ejercicio, si la respuesta en un si por otro lado, 
-      podríamos ver como progresa, primero   viendo con el caso de que fuera de solo 3 caracteres de largo.
+        respuesta es no, imprimimos "SOMETHING'S WRONG" y terminaríamos el ejercicio, si la respuesta en un si por otro lado,                               
+        podríamos ver como progresa, primero   viendo con el caso de que fuera de solo 3 caracteres de largo.
         Evaluaremos los distintos casos que se pueden dar, para ello usamos a Bob, como Bob solo tiene 3 caracteres podríamos 
         comparar los posibles casos y compararlos uno a uno.
 
@@ -57,13 +57,13 @@ Alice, Bob y Cindy han decidido irse de viaje por las fiestas! Mientras el resto
               
               | tal vez | tal vez| tal vez   |
 
-  En este caso la respuesta sería Bob puesto que es la única posibilidad con tres caracteres de los tres nombres,
-  ahora bien, en caso de que el largo sea de 5 tenemos un poco más de variedad, para eliminar la posibilidad de 
-  que sea cualquiera, se descarta la posibilidad de que sea cualquiera de los 2 nombres por lo que, si diera que entregan,
-  se sabrá al instante que se debe imprimir CAN'T TELL.*
-  Si ese no fuera el caso habría que ver como reconocer a que persona corresponde, para eso podríamos ir comparando letra 
-  a letra de nuevo, pero ahora viendo que palabra forma de forma que si es un punto asumimos que es la letra correcta y 
-  si en algún momento aparece una letra que no calza intentamos con la otra persona posible.
+        En este caso la respuesta sería Bob puesto que es la única posibilidad con tres caracteres de los tres nombres,
+        ahora bien, en caso de que el largo sea de 5 tenemos un poco más de variedad, para eliminar la posibilidad de 
+        que sea cualquiera, se descarta la posibilidad de que sea cualquiera de los 2 nombres por lo que, si diera que entregan,
+        se sabrá al instante que se debe imprimir CAN'T TELL.*
+        Si ese no fuera el caso habría que ver como reconocer a que persona corresponde, para eso podríamos ir comparando letra 
+        a letra de nuevo, pero ahora viendo que palabra forma de forma que si es un punto asumimos que es la letra correcta y 
+        si en algún momento aparece una letra que no calza intentamos con la otra persona posible.
 
 
 ###### Salida: 
