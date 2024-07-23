@@ -14,3 +14,4 @@ for i in range(N):
         t += 1
 
 print(t)
+# no puedo generar los casos

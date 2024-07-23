@@ -30,4 +30,4 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-// ni idea como funcionan pero no puedo verificar los casos pruebas ya que falta informacion
+// ultimo caso no puedo generarlo

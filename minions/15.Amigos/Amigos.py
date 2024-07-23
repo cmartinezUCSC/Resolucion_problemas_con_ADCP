@@ -29,3 +29,4 @@ def main():
             
 if __name__ == "__main__":
     main()
+# queda en un bucle al correr el codigo

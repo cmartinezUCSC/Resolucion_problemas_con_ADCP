@@ -25,4 +25,4 @@ personajes = [
 ]
 
 for personaje in personajes:
-    print (f"{personaje.nombre}es un {'Heroe' if clasificar_personajes(personaje)== 'H' else 'Villano'}")
+    print (f"{personaje.nombre} es un {'Heroe' if clasificar_personajes(personaje)== 'H' else 'Villano'}")
