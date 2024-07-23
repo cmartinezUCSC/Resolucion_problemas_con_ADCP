@@ -1,4 +1,4 @@
-# 10. Sucesión la Bicicleta
+# 10.Sucesión la Bicicleta
 
 #### Dificultad: Intermedia
 
