@@ -6,59 +6,58 @@
 
 *Obtener el máximo común divisor de 2 números usando el algoritmo de Euclides.*
 
-# Solución ADCP
+# ADCP
 
-# (A)NÁLISIS
+## (A)nalisis
 
-###### Entradas: 2 Números enteros (m, n)  
+###### Entradas: 
+2 Números enteros (m, n)  
 
-###### Proceso mental: 
+**Proceso mental:** 
 
-    ¿máximo común divisor? El máximo común divisor (MCD) es el mayor número entero que divide exactamente a dos o más números
-    enteros sin dejar residuo. En  otras palabras, es el número más grande que es un divisor común a todos los números dados.
-    
-    El MCD es una noción importante en la teoría de números y tiene varias aplicaciones en matemáticas y ciencias 
-    computacionales, como en simplificación de fracciones, criptografía, algoritmos de optimización, entre otros. 
-    El algoritmo de Euclides es un método antiguo y eficaz para calcular el máximo común divisor (MCD).
+¿máximo común divisor? El máximo común divisor (MCD) es el mayor número entero que divide exactamente a dos o más números
+enteros sin dejar residuo. En  otras palabras, es el número más grande que es un divisor común a todos los números dados.
 
-    ¿Qué es la divisibilidad? se dice que m es divisible por 
+El MCD es una noción importante en la teoría de números y tiene varias aplicaciones en matemáticas y ciencias 
+computacionales, como en simplificación de fracciones, criptografía, algoritmos de optimización, entre otros. 
+El algoritmo de Euclides es un método antiguo y eficaz para calcular el máximo común divisor (MCD).
 
-    i si (m mod i=0)
+¿Qué es la divisibilidad? se dice que m es divisible por 
 
-    ¿Cómo se describiría en lenguaje natural?
+i si (m mod i=0)
 
-    paso 1 Leer m, n
+¿Cómo se describiría en lenguaje natural?
 
-    paso 2 Verificar cuál de los 2 números es mayor...para 
-        definir la cota superior del divisor
+1. paso 1 Leer m, n
+2. paso 2 Verificar cuál de los 2 números es mayor...para definir la cota superior del divisor
+3. paso 3 Calcular el resto de la división de m y n por el iterador i hasta que este llegue a la cota superior
+4. paso 4 Guardar el valor de i en caso de cumplir condición de divisibilidad para m y simultáneamente para n
+5. paso 5 Imprimir el máximo
 
-    paso 3 Calcular el resto de la división de m y n por el iterador i hasta que este llegue a la cota superior
+###### Salida: 
+MCD
 
-    paso 4 Guardar el valor de i en caso de cumplir condición de divisibilidad para m y simultáneamente para n
-
-    paso 5 Imprimir el máximo
-
-###### Salida: MCD
-
-###### Restricciones: Ninguna
+###### Restricciones: 
+Ninguna
 
 
-## DISEÑO (pseudoCódigo)
-
-    Algoritmo Euclides
-        leer m,n
-        si n<=m Entonces
-            final=n
-        sino
-            final=m
-        FinSi
-        Para i=1 hasta final hacer//excluir el 1
-            si(n%i=0 y m%i=0) entonces
-                maximo=i;
-            Finsi
-        FinPara
-        Escribir "Máximo comun:",maximo;
-    FinAlgoritmo
+# (D)iseño (pseudoCódigo)
+```pseint
+Algoritmo Euclides
+	leer m,n
+	si n<=m Entonces
+		final=n
+	Sino
+		final=m
+	FinSi
+	Para i=1 hasta final hacer //excluir el 1 
+		si (n%i=0 y m%i=0) entonces
+				maximo=i;
+		FinSi
+	FinPara
+	Escribir "Máximo comun: ",maximo;
+FinAlgoritmo
+```
 
 # (C)odificación en C v1
 ```c

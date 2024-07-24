@@ -7,37 +7,39 @@
 *Se tienen tres números diferentes correspondientes a las edades de 3 hermanos de una familia chilena. Se debe determinar cuál es el hijo del medio.*
 
 
-# Solución ADCP
+## ADCP
 
-# (A)NÁLISIS
-###### Entradas:  3 números (a, b, c) distintos
+## (A)nalisis
+###### Entradas:  
+3 números (a, b, c) distintos
 
-
-###### Proceso mental: Esto se puede ver como un problema de intervalos: Solo basta con saber que entre tres números a, b, c con a!=b!=c, el del medio, corresponde al que esté entre dos números.
+**Proceso mental:**
+Esto se puede ver como un problema de intervalos: Solo basta con saber que entre tres números a, b, c con a!=b!=c, el del medio, corresponde al que esté entre dos números.
 
 Escenarios posibles
 
-escenario 1: b<a<c
+escenario 1: b<**a**<c
 
-escenario 2: c<a<b
+escenario 2: c<**a**<b
 
-escenario 3: a<b<c
+escenario 3: a<**b**<c
 
-escenario 4: c<b<c
+escenario 4: c<**b**<c
 
-escenario 5: a<c<b
+escenario 5: a<**c**<b
 
-escenario 6: b<c<a
-
-
-###### Salida: Valor del hijo del medio 
-
-###### Restricciones:edades distintas 
+escenario 6: b<**c**<a
 
 
-## DISEÑO 
+###### Salida: 
+Valor del hijo del medio 
 
-## En  Pseudocódigo :
+###### Restricciones:
+Edades distintas 
+
+# (D)iseño
+
+**En Pseudocódigo:**
 1.	Definir 3 variables a, b y c, 
 2.	Leer cada una por teclado.
 3.	Validar que sean distintas (si no lo son, volver a leer)

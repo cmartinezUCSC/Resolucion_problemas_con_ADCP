@@ -3,16 +3,19 @@
 
 ## Descripcion
 
-*Los corredores del Ironman de Pucón, una bella ciudad al sur de Chile, requieren determinar la velocidad (m/s) promedio por competidor alcanzada en una de las rutas de 1500 metros. El registro incluye parejas de números (minutos: segundos) por cada corredor correspondiente al tiempo exacto que les tomó la ruta. El término de la lista de corredores está determinado porque la dupla minutos: segundos es 0:0.*
+*Los corredores del Ironman de Pucón, una bella ciudad al sur de Chile, requieren determinar la velocidad (m/s) promedio **por competidor** alcanzada en una de las rutas de 1500 metros. El registro incluye parejas de números (minutos: segundos) por cada corredor correspondiente al tiempo exacto que les tomó la ruta. El término de la lista de corredores está determinado porque la dupla minutos: segundos es 0:0.*
 
 
-# Solución ADCP
+# ADCP
 
-# (A)NÁLISIS
-###### Entradas:Tiempo (minutos, segundos) que le toma a cada corredor completar la ruta.   
+## (A)nalisis
+###### Entradas:
+Tiempo (minutos, segundos) que le toma a cada corredor completar la ruta.   
 
-###### Proceso mental: ¿Debería hacer la transformación de minutos a segundos? ¿Cómo lo hago? ¿Cómo obtener la velocidad?  ¿Debería saber cuántos corredores participaron en la ruta? 
-*Imaginemos un ejemplo en las entradas: (tiempo que se demoraron en completar los 1500 metros un grupo de 4 participantes)*
+**Proceso mental:**
+¿Debería hacer la transformación de minutos a segundos? ¿Cómo lo hago? ¿Cómo obtener la velocidad?  ¿Debería saber cuántos corredores participaron en la ruta?
+
+Imaginemos un ejemplo en las entradas: (tiempo que se demoraron en completar los 1500 metros un grupo de 4 participantes)
 
         |      Minutos:Segundos | Velocidad (m/s)          |
         |-----------------------|--------------------------|
@@ -28,19 +31,15 @@
 
 
 
-## DISEÑO 
+# (D)iseño
 
-## En  Lenguaje Natural :
+**En Lenguaje Natural:**
 
-    1.	Definir las variables minuto, segundo, promedio y velocidad. 
-    2.	Leer variables minuto y segundo hasta ingresar un par 0 0. 
-    3.	Se valida que los tiempos sean válidos (minuto, segundo ≥0). 
-    4.	Si ingreso una pareja válida, se debe obtener su equivalente en segundos (tiempo=segundos+60*minutos). 
-    5.	Obtenido el tiempo en segundos, calcular velocidad (longitud/tiempo(s)) y mostrar en pantalla.
-
-
-## En Diagrama N-S
-
+1.	Definir las variables minuto, segundo, promedio y velocidad. 
+2.	Leer variables minuto y segundo hasta ingresar un par 0 0. 
+3.	Se valida que los tiempos sean válidos (minuto, segundo ≥0). 
+4.	Si ingreso una pareja válida, se debe obtener su equivalente en segundos (tiempo=segundos+60*minutos). 
+5.	Obtenido el tiempo en segundos, calcular velocidad (longitud/tiempo(s)) y mostrar en pantalla.
 
 # (C)odificación en C
 ```c

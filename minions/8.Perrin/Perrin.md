@@ -3,13 +3,15 @@
 #### Dificultad: Intermedio
 
 ## Descripcion
-En matemáticas, los números de Perrin están definidos por la relación de recurrencia
+*En matemáticas, los **números de Perrin** están definidos por la relación de recurrencia*
+  \( P_0 = 3 \) 
+  \( P_1 = 0 \) 
+  \( P_2 = 2 ...\)          
+  \[ P_n = P_{n-2} + P_{n-3} \text{ si } n > 2 \]
 
-P0 = 3, P1 = 0, P2 = 2 …           Pn = Pn − 2 + Pn − 3 si n > 2
+*La serie sería:  3, 0, 2, 3, 2, 5, 5, 7, 10, 12, 17, 22, 29, 39...*
 
-La serie sería:  3, 0, 2, 3, 2, 5, 5, 7, 10, 12, 17, 22, 29, 39...
-
-Determine el n-ésimo número de Perrín (n≥0).
+*Determine el n-ésimo número de Perrín (n≥0).*
 
     |  Entrada     | Salida   |
     |--------------|----------|
@@ -26,40 +28,39 @@ Determine el n-ésimo número de Perrín (n≥0).
     
 
 
-# Solución ADCP
+# ADCP
 
-# (A)NÁLISIS
-###### Entrada: n 
-###### Proceso mental: Es una sucesión infinita de números naturales introducida por François Oliver Raoul Perrin en 1899. Tiene su origen en un trabajo de 1876 de Édouard Lucas. Para explicar la regla de generación de los números, primero se debe inicializar los valores de P0=3, P1=0 y P2=2
-Pn = Pn − 2 + Pn – 3, si n > 2.
+## (A)nalisis
+
+###### Entrada: 
+n 
+**Proceso mental:**
+Es una sucesión infinita de números naturales introducida por François Oliver Raoul Perrin en 1899. Tiene su origen en un trabajo de 1876 de Édouard Lucas. Para explicar la regla de generación de los números, primero se debe inicializar los valores de P0=3, P1=0 y P2=2
+ \[ P_n = P_{n-2} + P_{n-3} \text{ si } n > 2 \]
 
 Ejemplo
 
-p0 =3, p1=0, p2=2
-
-p3 = (p1 + p0) = 0+3 = 3
-
-p4 = (p2 + p1) = 2+0 = 2
-
-p5 = (p3 + p2) = 3+ 2 =5
-
-p6 = (p4 + p3) = 2+3=5
-
-p7 = (p5 + p4) = 5+2=7
+ \( P_0 = 3 \) \( P_1 = 0 \) \( P_2 = 2\) 
+\(P_3 = (P_1 + P_0) = 0+3 = 3\)
+\(P_4 = (P_2 + P_1) = 2+0 = 2\)
+\(P_5 = (P_3 + P_2) = 3+2 = 5\)
+\(P_6 = (P_4 + P_3) = 2+3 = 5\)
+\(P_7 = (P_5 + P_4) = 5+2 = 7\)
 
 Por lo tanto, para obtener el n-ésimo término de la serie se utilizará la expresión:  
 
-pn = pn-2+pn-3
+ \[ P_n = P_{n-2} + P_{n-3}\]
 
 
-###### Salida: n-ésimo término pn
+###### Salida: 
+n-ésimo término pn
 
-###### Restricciones: n≥0, (con ello se podrá obtener p0, p1 y p2)
+###### Restricciones: 
+n≥0, (con ello se podrá obtener p0, p1 y p2)
 
+# (D)iseño
 
-## DISEÑO 
-
-## En  Lenguaje Natural : 
+**En Lenguaje Natural:** 
 1.	Primero, declaramos e inicializamos algunas variables: n (el número en la secuencia que queremos encontrar), i (variable de control para el ciclo) y las variables para los tres valores iniciales p0, p1 y p2.
 2.	Luego, le pedimos al usuario que ingrese el valor de n.
 3.	A continuación, comprobamos si n=0, n=1 o bien n=2, y se despliega el valor correspondiente de la secuencia (p0, p1 ó p2).

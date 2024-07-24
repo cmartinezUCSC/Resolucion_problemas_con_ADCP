@@ -4,39 +4,39 @@
 
 ## Descripcion
 
-Considera la siguiente propiedad descubierta por Nicómaco de Gerasa :
+*Considera la siguiente propiedad descubierta por Nicómaco de Gerasa:*
 
-“Sumando el primer impar, se obtiene el primer cubo;
+*“Sumando el primer impar, se obtiene el primer cubo;
 Sumando los 2 siguientes impares, se obtiene el segundo cubo;
-Sumando los 3 siguientes, se obtiene el tercer cubo, etc.”
+Sumando los 3 siguientes, se obtiene el tercer cubo, etc.”*
 
-Desarrolle un programa que lea el valor de N y calcule el N-ésimo cubo.
+*Desarrolle un programa que lea el valor de N y calcule el N-ésimo cubo.*
 
 
-# Solución ADCP
+# ADCP
 
-# (A)NÁLISIS
+## (A)nalisis
 Los cubos de Nicómaco consisten en la suma de los N números impares. Por ejemplo: 
 
-	      1^3=1
-        2^3=3+5=8
-	 3^3=7+9+11=27
- 4^3=13+15+17+19=64
+	1^3=1
+    2^3=3+5=8
+	3^3=7+9+11=27
+    4^3=13+15+17+19=64
 
-###### Entrada:  Un número N
+###### Entrada:  
+Un número N
 
 
-###### Proceso mental: Se utilizará una estrategia interesante (entre muchas):
+**Proceso mental:** 
+Se utilizará una estrategia interesante (entre muchas):
 
-Casos particulares
+**Casos particulares**
 
-Para N=1, se considera el primer impar.
-
+*Para N=1, se considera el primer impar.
 Para N=2, Se consideran los 2 siguientes impares.
+Para N=3, considerar los 3 siguientes impares.*
 
-Para N=3, considerar los 3 siguientes impares.
-
-Generalizando…
+**Generalizando…**
 
 A partir de lo anterior, para obtener el cubo de N, se deben sumar N impares. Además, notar que, si se desea obtener el cubo de 2, se debe partir la suma desde el 2° término. Para N=3, se debe partir desde el 4° término. Para N=4, partir desde el 7° término.
 
@@ -46,12 +46,14 @@ Como ya se tiene la cota inferior, se forma el número impar que se genera en es
 
 A partir del 11, se suma los 4 siguientes impares: 13,15,17,19. Sumando ambos se obtiene 64, ¡Eureka!
 
-###### Salida: El cubo de este número N
+###### Salida: 
+El cubo de este número N
 
-###### Restricciones: N>0
+###### Restricciones: 
+N>0
 
 
-## DISEÑO (Pseudocódigo)
+# (D)iseño (Pseudocódigo)
 1.	Solicita al usuario que ingrese un número N.
 2.	Verifica que N sea un número entero positivo mayor que cero.
 3.	Calcula la suma de los primeros N números impares.

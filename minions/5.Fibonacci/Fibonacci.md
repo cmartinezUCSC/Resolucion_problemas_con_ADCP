@@ -5,49 +5,48 @@
 ## Descripcion
 La sucesión de Fibonacci es la sucesión de números:
 
-0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... 
+**0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...**
 
 Cada número se calcula sumando los dos anteriores a él. 
 
 Ejemplo:
 
-El 2 se calcula sumando (1+1)
-
+*El 2 se calcula sumando (1+1)
 análogamente, el 3 es sólo (1+2),
-
 y el 5 es (2+3),
+¡y así!*
 
-¡y así!
-
-Genere la sucesión de Fibonacci hasta el n-ésimo término de 
-Fibonacci, considere t0=0, t1=1
+Genere **la sucesión de Fibonacci** hasta el n-ésimo término de Fibonacci, considere t0=0, t1=1
 
 
 
-# Solución ADCP
+# ADCP
 
-# (A)NÁLISIS
-###### Entrada: n  
+## (A)nalisis
+###### Entrada: 
+n  
 
-###### Proceso mental: Para explicar la secuencia se podría aplicar la siguiente función de recurrencia:
-t0 = 0, t1=1
+**Proceso mental:** 
+Para explicar la secuencia se podría aplicar la siguiente función de recurrencia:
 
-t2= (t0+t1) = 0+1 = 1
-
+t0 = 0, t1 = 1
+t2 = (t0+t1) = 0+1 = 1
 t3 = (t1+t2) = 1+1 = 2
+t4 = (t2+t3) = 1+2 = 3
 
-t4 = (t2+t3) = 1+2 =3
+Por lo tanto, para obtener el n-ésimo término de Fibonacci, se debe sumar el valor de
 
-*Por lo tanto, para obtener el n-ésimo término de Fibonacci, se debe sumar el valor de*
 tn = tn-1+tn-2
 
-###### Salida: tn
+###### Salida: 
+tn
 
-###### Restricciones: n>=0
+###### Restricciones: 
+n>=0
 
-## DISEÑO 
+# (D)iseño
 
-## En  Lenguaje Natural : 
+**En Lenguaje Natural:**
 
 1.	Como se sabe que los casos iniciales t0=0 y t1=1, debiéramos definir estas dos variables, en 0 y 1 respectivamente, también se debe definir un acumulador tn (inicializado en 0, tn=0). 
 2.	Solicitar por teclado el valor de “N” y comprobar que sea mayor o igual a cero. Acá se pueden dar 3 casos: 
@@ -58,6 +57,7 @@ tn = tn-1+tn-2
 
 
 ## En código (pseint)
+```pseint
 Algoritmo Fibonacci
     Definir t0,t1 Como Entero
     t0=0
@@ -84,6 +84,7 @@ Algoritmo Fibonacci
         FinSi
     FinSi
 FinAlgoritmo
+```
 
 ## Diagrama de Flujo (Pseint)
 ![](imagen.png)

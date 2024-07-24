@@ -21,24 +21,25 @@
       | 0            | 0                   |
 
 
-# Solución ADCP
+# ADCP
 
-# (A)NÁLISIS
+## (A)nalisis
 
 ###### Entradas:   
 ota superior (n)
 
-Proceso: mental: ¿Se deben sumar todos los números comprendidos entre 1 y n? ¿Qué significa?:
+**Proceso mental:** 
+¿Se deben sumar todos los números comprendidos entre 1 y n? ¿Qué significa?:
 
-*Casos particulares:*
+**Casos particulares:**
 
 Para n=1, se debería acumular 1
 Para n=2, se debería acumular: 1+2 = 3
-Para n=5, se debería acumular: 1+2+3+4+5 =15
+Para n=5, se debería acumular: 1+2+3+4+5 = 15
 
-*Generalizando:*
+**Generalizando:**
 
-Por lo tanto, para n= k, acumular: 1+2+3+...+k  
+Por lo tanto, para n = k, acumular: 1+2+3+...+k  
 
 ###### Salida: 
 1+2+3+…+n
@@ -46,11 +47,11 @@ Por lo tanto, para n= k, acumular: 1+2+3+...+k
 ###### Restricciones: 
 n≥1
 
-## DISEÑO (Lenguaje Natural semi estructurado):
+# (D)iseño (Lenguaje Natural semi estructurado):
 
 
 *1.	Definir 3 variables (n, i, sumaresultado).* 
-*2.	Comprobar que n sea mayor a 0.* 
+*2.	Comprobar que **n** sea mayor a 0.* 
 *3.	Hacer uso de un ciclo repetitivo de  tamaño n (dado que se conoce el número de iteraciones)*
     *incluyendo la instrucción sumaresultado = sumaresultado + i (i actúa como iterador con i  1..n;* 
     *sumaresultado actúa como acumulador, observe el efecto de estar a ambos lados de la asignación).* 
@@ -58,20 +59,23 @@ n≥1
     *Y en Pseudocódigo quedaría así (observe la diferencia con el lenguaje natural semi estructurado):*
 
 ### Algoritmo Suma de Gauss
-    Definir suma,i,n como entero
-    Repetir
-        Escribir 'Ingrese un numero mayor o igual a 1'
-        Leer n 
-        Si n<1 Entonces
-            Escribir 'Error,debe ser >= 1'
-        FinSi
-    Hasta Que n>1
-    suma=0;
-    Para i<-1 Hasta n Hacer
-        suma <- suma+i
-    FinPara
-    Escribir 'La suma de Gauss es para ', n,'es', suma
-### FinAlgorito
+```pseint
+Algoritmo suma_de_Gauss
+	Definir suma,i, n Como Entero
+	Repetir
+		Escribir 'Ingrese un número mayor o igual a 1'
+		Leer n
+		Si n<1 Entonces
+			Escribir 'Error, debe ser >=1'
+		FinSi
+	Hasta Que n>1
+	suma=0;
+	Para i<-1 Hasta n Hacer
+		suma <- suma+i
+	FinPara
+	Escribir 'La suma de Gauss es para ', n,' es ', suma
+FinAlgoritmo
+```
 
 # (C)odificación en C
 ```c

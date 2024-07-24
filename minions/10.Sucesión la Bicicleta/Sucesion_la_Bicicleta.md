@@ -4,29 +4,35 @@
 
 ## Descripcion
 
-b_n = (b_n-1 + 1)/(b_n-2) , ∀ n≥ 3
+\[ b_n = \frac{b_{n-1} + 1}{b_{n-2}}, \quad \forall n \geq 3 \]
 
-Esta sucesión se denomina así ya que para avanzar a través de sus términos basta con hacer “rodar” dos consecutivos. Por ejemplo, si tomamos los primeros términos de la sucesión 2 y 3 se obtiene que el siguiente es 2, sorprendentemente la generación es cíclica:
+*Esta sucesión se denomina así ya que para avanzar a través de sus términos basta con hacer “rodar” dos consecutivos. Por ejemplo, si tomamos los primeros términos de la sucesión 2 y 3 se obtiene que el siguiente es 2, sorprendentemente la generación es cíclica:*
 
-2, 3, 2, 1, 1, 2, 3, …
+\[2, 3, 2, 1, 1, 2, 3, …\]
 
-Dado un n≥ 3, construya un programa que genere los primeros n términos de la Sucesión Bicicleta.
+*Dado un n≥ 3, construya un programa que genere los primeros **n** términos de la Sucesión Bicicleta.*
 
-# Solución ADCP
+# ADCP
 
-# (A)NÁLISIS
-###### Entrada: N  
+## (A)nalisis
 
-###### Proceso mental: Tal como en sucesión de Fibonacci, el término n-ésimo de la sucesión de la bicicleta se obtiene a partir de los 2 términos anteriores, es por esto que es necesario partir con los términos b_0 y b_1:
+###### Entrada: 
+N  
 
-b_n = (b_n-1 + 1)/(b_n-2) , ∀ n≥ 3
+**Proceso mental:** 
+Tal como en sucesión de Fibonacci, el término n-ésimo de la sucesión de la bicicleta se obtiene a partir de los 2 términos anteriores, es por esto que es necesario partir con los términos b_0 y b_1:
+
+\[ b_n = \frac{b_{n-1} + 1}{b_{n-2}}, \quad \forall n \geq 3 \]
 
 
-###### Salida: N primeros términos de la sucesión de la bicicleta (b_0, b_1, b_2...b_n)
+###### Salida: 
+N primeros términos de la sucesión de la bicicleta ($b_0, b_1, b_2...b_n$)
 
-###### Restricciones: N>=3
+###### Restricciones: 
+N>=3
 
-## DISEÑO (pseudoCódigo)
+# (D)iseño (pseudoCódigo)
+```pseint
 Algoritmo La_Bicicleta
     Repetir 
         Leer n
@@ -44,6 +50,7 @@ Algoritmo La_Bicicleta
         b1=bn
     FinPara
 FinAlgoritmo
+```
 
 # (C)odificación en C
 ```c

@@ -5,7 +5,7 @@
 
 ## Descripcion
 
-*Se desea determinar la raíz i-ésima, i>0 de un valor n ingresado. Para ello, el usuario ingresará 2 números, donde el primer término es el número al que se le calculará la raíz y el segundo el valor de i. El resultado de la operación debe generarse con 3 cifras decimales.*
+*Se desea determinar la raíz i-ésima, i>0 de un valor **n** ingresado. Para ello, el usuario ingresará 2 números, donde el primer término es el número al que se le calculará la raíz y el segundo el valor de i. El resultado de la operación debe generarse con 3 cifras decimales.*
 
 		| Entrada   | Salida                   |
 		
@@ -25,38 +25,33 @@
 
 # ADCP
 
-# (A)nalisis
+## (A)nalisis
 
 ###### Entradas:  
-Un número representando la base (n) y otro representando el recíproco del exponente (i).
+Un número representando la base **(n)** y otro representando el recíproco del exponente (i).
 
 Proceso mental: Se sabe que la raíz i-ésima de un número n se puede trabajar como potencia con exponente fraccionario.
 
 * Por ejemplo\*:    	
+    \[ \sqrt[2]{4} = 4^{\frac{1}{2}} \]
 
-    √4 = 4^(1/2)
+    \[ \sqrt[3]{8} = 8^{\frac{1}{3}} \]
 
-    ∛8 = 8^(1/3)
+    \[ \sqrt[4]{16} = 16^{\frac{1}{4}} \]
 
-    ∜16 = 16^(1/4)
-
-    Generalizando, \sqrt[n]{xyz}
-
-    √(i&n)=n^(1/i)con i>0
+    Generalizando, \[ \sqrt[i]{n} = n^{\frac{1}{i}} \]
 
 ###### Salida: 
-La raíz i-ésima del número n
+La raíz i-ésima del número **n**
 
 ###### Restricciones: 
-n debe ser mayor que 0, para evitar raíces 
+**n** debe ser mayor que 0, para evitar raíces imaginarias e **i** estrictamente positivo para evitar la división por 0, **n**≥0 e **i**>0
 
-*imaginarias e i estrictamente positivo para evitar la división por 0, n≥0 e i>0*
-
-# DISEÑO (Lenguaje Natural):
-	Definir 3 variables (n, i, raiz). 
-	Leer por teclado las variables n, i (no olvidarse que i > 0 y n≥0). 
-	Una vez leídos ambos valores, se hará el cálculo.
-	Finalmente mostrar el resultado por pantalla.
+# (D)iseño (Lenguaje Natural):
+1. Definir 3 variables **(n, i, raiz)**. 
+2. Leer por teclado las variables **n, i** (no olvidarse que **i** > 0 y **n**≥0). 
+3. Una vez leídos ambos valores, se hará el cálculo.
+4. Finalmente mostrar el resultado por pantalla.
 
 # (C)odificación en C
 ```c
