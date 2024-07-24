@@ -6,6 +6,7 @@
 *En un mundo lleno de anime, hay diferentes tipos de personajes con habilidades únicas. Los investigadores de la Academia de Ciencias de Anime están interesados en desarrollar un algoritmo de machine learning para clasificar automáticamente los personajes en dos categorías: "Héroe" o "Villano", basándose en sus características. C*
 
 *Se te ha asignado la tarea de desarrollar una solución que implemente un algoritmo de clasificación simple. Se proporciona un conjunto de datos de entrenamiento que contiene información sobre varios personajes de anime, incluyendo sus niveles de poder, su actitud, y su historia pasada. Considere los siguientes datos de entrenamiento (Nombre, Nivel de Poder, Actitud {1: Buena, -1: Mala}, Historia Pasada {0: Heroica, 1: Trágica})*
+
 **Entradas**
     
 Naruto, 9000, 1, 0
@@ -16,7 +17,7 @@ Luffy, 7500, 1, 0
 Sasuke, 8500, -1, 1
 Vegeta, 11000, -1, 0
 
-**Reglas:**
+**Reglas de clasificación:**
     
 •	Si el nivel de poder es mayor a 9000, el personaje se considera un "Héroe".
 •	Si la actitud es positiva (1) y la historia pasada es heroica (0), el personaje se considera un "Héroe".
