@@ -1,4 +1,5 @@
-## Repositorio del e-book >> Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en C y Python 
+## Repositorio del e-book 
+## Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en C y Python 
 
 Bienvenido al fascinante mundo de la resolución de problemas. Este espacio corresponde al repositorio del 
 e-book diseñado para aquellas personas, estudiantes o no, que desean adentrarse en la programación y 
