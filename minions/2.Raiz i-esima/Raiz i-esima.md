@@ -11,21 +11,21 @@
 		
 		|-----------|--------------------------|
 		
-		| 1427,3    | 11.258                   |
+		| 1427, 3   | 11.258                   |
 		
-		| 52538,2   | 229.212                  |
+		| 52538, 2  | 229.212                  |
 		
-		| 144, 0    | Error, debe ser >0       |
+		| 144, 0    | Error, debe ser > 0      |
 		
 		| -27, 3    | Error, debe ser >= 0     |
 		
-		| 0,3       | 0.000                    |
+		| 0, 3      | 0.000                    |
 
 
 
-# Solución ADCP
+# ADCP
 
-# ANÁLISIS:
+# (A)nalisis
 
 ###### Entradas:  
 Un número representando la base (n) y otro representando el recíproco del exponente (i).
@@ -34,13 +34,13 @@ Proceso mental: Se sabe que la raíz i-ésima de un número n se puede trabajar 
 
 * Por ejemplo\*:    	
 
-    √(4)  =4^(1/2)
+    √4 = 4^(1/2)
 
-    ∛8=8^(1/3)
+    ∛8 = 8^(1/3)
 
-    ∜16=16^(1/4)
+    ∜16 = 16^(1/4)
 
-    Generalizando,
+    Generalizando, \sqrt[n]{xyz}
 
     √(i&n)=n^(1/i)con i>0
 
