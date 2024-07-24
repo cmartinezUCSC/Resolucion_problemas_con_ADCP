@@ -174,7 +174,11 @@ print(resp)
 # (P)ruebas
 
       | Entrada  | Salida             |
+      
       |----------|--------------------|
+      
       | Ali.e    | Alice              |
+      
       | bob      | algo salio mal     |
+      
       | .i...    | Cindy              |
