@@ -29,10 +29,10 @@ n
 **Proceso mental:** 
 Para explicar la secuencia se podría aplicar la siguiente función de recurrencia:
 
-t0 = 0, t1 = 1
-t2 = (t0+t1) = 0+1 = 1
-t3 = (t1+t2) = 1+1 = 2
-t4 = (t2+t3) = 1+2 = 3
+t0 = 0, t1 = 1  
+t2 = (t0+t1) = 0+1 = 1  
+t3 = (t1+t2) = 1+1 = 2  
+t4 = (t2+t3) = 1+2 = 3  
 
 Por lo tanto, para obtener el n-ésimo término de Fibonacci, se debe sumar el valor de
 
