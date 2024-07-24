@@ -82,7 +82,7 @@ Los datos de entrenamiento deben ser inicializados durante la codificación del 
     la tarea específica y permite que un futuro se pueda llamar las veces que sea necesaria sin repetir código.** 
          
 
-# (C)odificación C:
+# (C)odificación en C
 ```c
 #include <stdio.h>
 #include <stdlib.h>
@@ -120,7 +120,7 @@ int main(){
     return EXIT_SUCCESS;
 }
 ```
-# (C)odificación Py:
+# (C)odificación en Python
 ```py
 class Personaje:
     def __init__(self, nombre, nivel_de_poder, actitud, historia_pasada):
