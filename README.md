@@ -1,4 +1,4 @@
-## Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en C y Python 
+## Repositorio del e-book >> Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en C y Python 
 
 Bienvenido al fascinante mundo de la resolución de problemas. Este espacio corresponde al repositorio del 
 e-book diseñado para aquellas personas, estudiantes o no, que desean adentrarse en la programación y 
@@ -6,7 +6,7 @@ desarrollar habilidades de pensamiento computacional, que incluye lógica, abstr
 conquistar, análisis, identificación de patrones y toma de decisiones.
 
 En el mundo de la informática, la capacidad de resolver problemas de manera eficiente y estructurada es esencial. 
-El método ADCP se convierte en una estrategia fundamental para los estudiantes, ya que les permite reducir problemas 
+El método **ADCP** se convierte en una estrategia fundamental para los estudiantes, ya que les permite reducir problemas 
 complejos a otros más pequeños y manejables, facilitando así la creación de soluciones algorítmicas.
 
 A lo largo de estas páginas, exploraremos el proceso de **ANÁLISIS, DISEÑO, CONSTRUCCIÓN y PRUEBAS** de algoritmos, 
