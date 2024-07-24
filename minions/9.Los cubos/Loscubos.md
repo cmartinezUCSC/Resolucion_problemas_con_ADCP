@@ -12,7 +12,6 @@ Sumando los 3 siguientes, se obtiene el tercer cubo, etc.”*
 
 *Desarrolle un programa que lea el valor de N y calcule el N-ésimo cubo.*
 
-
 # ADCP
 
 ## (A)nalisis
@@ -25,7 +24,6 @@ Los cubos de Nicómaco consisten en la suma de los N números impares. Por ejemp
 
 ###### Entrada:  
 Un número N
-
 
 **Proceso mental:** 
 Se utilizará una estrategia interesante (entre muchas):

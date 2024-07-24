@@ -7,22 +7,13 @@
 
 *A un estudiante de 1° básico se le dio como desafío calcular el producto de 2 números no negativos distintos de 0, a pesar de que el estudiante sólo sabe hacer sumas simples. Ayúdale a entender la multiplicación y resolver el problema a partir de lo que sabe.* 
 
-
-
-    | Entrada  | Salida                    |
-
-    |----------|---------------------------|
-
-    | 2, 8     | 16                        |
-
-    | 5, 11    | 55                        |
-
-    | 0, 12    | Error, debe ser >0        |
-
-    | 144, 0   | Error, debe ser >0        |
-
-    | -1, 5    | Error, debe ser >0        |
-
+| Entrada | Salida                   |
+|---------|--------------------------|
+| 2, 8    | 16                       |
+| 5, 11   | 55                       |
+| 0, 12   | Error, debe ser > 0      |
+| 144, 0  | Error, debe ser > 0      |
+| -1, 5   | Error, debe ser > 0      |
 
 # ADCP
 

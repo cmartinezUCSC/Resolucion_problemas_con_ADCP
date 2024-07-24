@@ -5,21 +5,13 @@
 ## Descripcion
 *Pedrito, un estudiante de 1º básico de un colegio local aprendió hace muy poco a sumar enteros, sin embargo, se le complica cuando se le acaban los dedos de las manos para acumular y requiere la ayuda de un programador experto que acumule todos los enteros comprendidos entre 1 y N (ambos incluidos), con N≥0.* 
 
-
-
-      |      Entrada | Salida              |
-      |--------------|---------------------|
-      
-      | 3            | 6                   |
-      
-      | 2            | 3                   |
-      
-      | 5            | 15                  |
-      
-      |-1            |ERROR, debe ser >= 0 |
-      
-      | 0            | 0                   |
-
+| Entrada | Salida              |
+|---------|---------------------|
+| 3       | 6                   |
+| 2       | 3                   |
+| 5       | 15                  |
+| -1      | ERROR, debe ser >= 0 |
+| 0       | 0                   |
 
 # ADCP
 

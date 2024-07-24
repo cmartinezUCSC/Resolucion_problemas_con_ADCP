@@ -13,20 +13,13 @@
 
 *Determine el n-ésimo número de Perrín (n≥0).*
 
-    |  Entrada     | Salida   |
-    |--------------|----------|
-    
-    | 3            | 3        |
-    
-    | 6            | 5        |
-    
-    | 8            | 10       |
-    
-    | 0            | 3        |
-    
-    | 1            | 0        |
-    
-
+| Entrada | Salida |
+|---------|--------|
+| 3       | 3      |
+| 6       | 5      |
+| 8       | 10     |
+| 0       | 3      |
+| 1       | 0      |
 
 # ADCP
 
@@ -34,6 +27,7 @@
 
 ###### Entrada: 
 n 
+
 **Proceso mental:**
 Es una sucesión infinita de números naturales introducida por François Oliver Raoul Perrin en 1899. Tiene su origen en un trabajo de 1876 de Édouard Lucas. Para explicar la regla de generación de los números, primero se debe inicializar los valores de P0=3, P1=0 y P2=2
  \[ P_n = P_{n-2} + P_{n-3} \text{ si } n > 2 \]
