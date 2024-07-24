@@ -14,4 +14,3 @@ for j in range (T):
             C_uso = c
             
     print(baldes)
-# ultimo caso no puedo correrlo

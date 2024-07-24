@@ -30,4 +30,3 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-// ultimo caso no puedo generarlo
