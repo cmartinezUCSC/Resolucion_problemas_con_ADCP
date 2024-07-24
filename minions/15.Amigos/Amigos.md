@@ -10,7 +10,7 @@ Por ejemplo, 220 y 284 son amigos, ya que:*
 Suma de divisores de 220:  1 + 2 + 4 + 5 + 10 + 11 + 20 + 22 + 44 + 55 + 110 = 284
 Suma de divisores de 284:  1 + 2 + 4 + 71 + 142 = 220
 
-*Implemente un algoritmo que permita obtener las parejas de números amigos menores o iguales a **m**, siendo **m** un número ingresado por teclado. *
+*Implemente un algoritmo que permita obtener las parejas de números amigos menores o iguales a **m**, siendo **m** un número ingresado por teclado.*
 
 # ADCP
 
@@ -20,10 +20,10 @@ Suma de divisores de 284:  1 + 2 + 4 + 71 + 142 = 220
 Cota superior (m)
 
 
-######Proceso mental:
+###### Proceso mental:
 
-¿Cómo se obtiene el divisor de un número?, si (K MOD  i = 0 )  con i=5, n  significa que k es divisible por 5
-¿cómo se obtienen números amigos k, i? si suma divisores de k = suma divisores de i con k ≤ m e i<k
+¿Cómo se obtiene el divisor de un número?, si (K MOD  i = 0 )  con i=5, n  significa que k es divisible por 5  
+¿Cómo se obtienen números amigos k, i? si suma divisores de k = suma divisores de i con k ≤ m e i<k
 
 Recuerde que: (a MOD b) es el resto de la división entera entre a y b, también conocido como operador módulo.
 
