@@ -20,7 +20,7 @@ Suma de divisores de 284:  1 + 2 + 4 + 71 + 142 = 220
 Cota superior (m)
 
 
-**Proceso mental:**
+######Proceso mental:
 
 ¿Cómo se obtiene el divisor de un número?, si (K MOD  i = 0 )  con i=5, n  significa que k es divisible por 5
 ¿cómo se obtienen números amigos k, i? si suma divisores de k = suma divisores de i con k ≤ m e i<k
