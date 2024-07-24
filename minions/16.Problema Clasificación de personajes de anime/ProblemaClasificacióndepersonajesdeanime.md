@@ -153,20 +153,20 @@ for personaje in personajes:
 ```
 # (P)ruebas
 
-| Salida                                |
+    | Salida                                |
       
-|---------------------------------------|
+    |---------------------------------------|
       
-| Naruto - Naruto es un Heroe           |
+    | Naruto - Naruto es un Heroe           |
       
-| Goku - Dragon Ball es un Heroe        |
+    | Goku - Dragon Ball es un Heroe        |
       
-| Light - Death Note es un Villano      |
+    | Light - Death Note es un Villano      |
       
-| Freezer - Dragon Ball es un Villano   |
+    | Freezer - Dragon Ball es un Villano   |
       
-| Luffy - One Piece es un Heroe         |
+    | Luffy - One Piece es un Heroe         |
       
-| Sasuke - Naruto es un Villano         |
+    | Sasuke - Naruto es un Villano         |
       
-| Vegeta - Dragon Ball es un Heroe      |
+    | Vegeta - Dragon Ball es un Heroe      |
