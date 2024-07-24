@@ -12,11 +12,11 @@ int main(){
         }   
     } while (n < 3);
 
-    printf("%3.2f\n%3.2f\n", b0, b1);
+    printf("%3.1f\n%3.1f\n", b0, b1);
 
     for (i = 1; i <= n - 2; i += 1){
         bn = (b1 + 1) / b0;
-        printf("%3.2f\n", bn);
+        printf("%3.1f\n", bn);
 
         b0 = b1;
         b1 = bn;
