@@ -2,7 +2,7 @@
 
 #### Dificultad: fácil
 
-## Descripcion
+## Descripción
 La sucesión de Fibonacci es la sucesión de números:
 
 **0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...**
@@ -22,7 +22,7 @@ Genere **la sucesión de Fibonacci** hasta el n-ésimo término de Fibonacci, co
 
 # ADCP
 
-## (A)nalisis
+## (A)nálisis
 ###### Entrada: 
 n  
 
@@ -56,7 +56,7 @@ n>=0
 
 
 
-## En código (pseint)
+**En pseudocódigo (Pseint)**
 ```pseint
 Algoritmo Fibonacci
     Definir t0,t1 Como Entero
