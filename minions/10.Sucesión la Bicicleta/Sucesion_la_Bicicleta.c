@@ -24,4 +24,3 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-// devuelve con decimales y en los casos prueba no aparecen con decimales

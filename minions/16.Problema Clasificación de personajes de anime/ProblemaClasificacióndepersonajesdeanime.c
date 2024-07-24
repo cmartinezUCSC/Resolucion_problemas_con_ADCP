@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-struct Personajes{
-    char nombre[20];
+struct Personaje{
+    char nombre[30];
     int nivelDePoder;
     int actitud;
     int historiaPasada;
@@ -33,4 +33,3 @@ int main(){
     
     return EXIT_SUCCESS;
 }
-// no lo puedo ejecutar por los errores que me genera

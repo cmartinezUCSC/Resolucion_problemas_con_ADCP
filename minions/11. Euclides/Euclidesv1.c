@@ -4,8 +4,8 @@
 int main(){
     int final, i, m, n, maximo;
 
-    scanf("%d", m);
-    scanf("%d", n);
+    scanf("%d", &m);
+    scanf("%d", &n);
 
     if (n <= m){
         final = n;
@@ -23,4 +23,3 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-// error en 7 y 8, falta &

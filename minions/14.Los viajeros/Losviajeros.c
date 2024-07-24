@@ -33,6 +33,7 @@ int main(){
                 break;
             }
         }
+        resp[5] = '\0';
         if (strcmp(resp, nom[1]) != 0){
             strcpy(resp, "");
             for (int i = 0; i < 5; i++){
@@ -52,4 +53,3 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-// Me genera con error el caso de .i... ya que genera "Cindysalio mal"

@@ -23,5 +23,3 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-
-// entrega un decimal mas del que sale en los casos prueba

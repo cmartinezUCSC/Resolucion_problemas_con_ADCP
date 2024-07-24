@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <time.h>
 #include <stdlib.h>
 
 int main(){
@@ -18,4 +19,3 @@ int main(){
 
     return EXIT_SUCCESS;
 }
-// falta una libreria, time.h

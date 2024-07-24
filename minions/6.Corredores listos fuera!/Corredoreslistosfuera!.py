@@ -22,4 +22,3 @@ def main ():
         
 if __name__ == "__main__":
     main()
-# entrega un decimal mas del que sale en los casos prueba
