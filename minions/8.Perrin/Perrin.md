@@ -9,7 +9,7 @@ $P_0 = 3$
 $P_1 = 0$
 $P_2 = 2 ...$
 
-$P_n = P_{n-2} + P_{n-3} \text{ si } n > 2$
+$$P_n = P_{n-2} + P_{n-3} \text{ si } n > 2$$
   
 *La serie sería:  3, 0, 2, 3, 2, 5, 5, 7, 10, 12, 17, 22, 29, 39...*
 
@@ -33,7 +33,7 @@ n
 **Proceso mental:**
 Es una sucesión infinita de números naturales introducida por François Oliver Raoul Perrin en 1899. Tiene su origen en un trabajo de 1876 de Édouard Lucas. Para explicar la regla de generación de los números, primero se debe inicializar los valores de P0=3, P1=0 y P2=2
 
-$P_n = P_{n-2} + P_{n-3} \text{ si } n > 2$
+$$P_n = P_{n-2} + P_{n-3} \text{ si } n > 2$$
 
 Ejemplo
 
@@ -51,7 +51,7 @@ $P_7 = (P_5 + P_4) = 5+2 = 7$
 
 Por lo tanto, para obtener el n-ésimo término de la serie se utilizará la expresión:  
 
-$P_n = P_{n-2} + P_{n-3}$
+$$P_n = P_{n-2} + P_{n-3}$$
 
 
 ###### Salida: 
