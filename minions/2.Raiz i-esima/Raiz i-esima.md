@@ -27,7 +27,7 @@ Proceso mental: Se sabe que la raíz i-ésima de un número n se puede trabajar 
 * Por ejemplo\*:    	
     $\sqrt[2]{4} = 4^{\frac{1}{2}}$
 
-    \[ \sqrt[3]{8} = 8^{\frac{1}{3}} \]
+    \[\sqrt[3]{8} = 8^{\frac{1}{3}}\]
 
     \[ \sqrt[4]{16} = 16^{\frac{1}{4}} \]
 
