@@ -25,7 +25,7 @@ Un número representando la base **(n)** y otro representando el recíproco del 
 Proceso mental: Se sabe que la raíz i-ésima de un número n se puede trabajar como potencia con exponente fraccionario.
 
 * Por ejemplo\*:    	
-    \[ \sqrt[2]{4} = 4^{\frac{1}{2}} \]
+    $\sqrt[2]{4} = 4^{\frac{1}{2}}$
 
     \[ \sqrt[3]{8} = 8^{\frac{1}{3}} \]
 
