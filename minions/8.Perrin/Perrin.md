@@ -6,10 +6,11 @@
 *En matemáticas, los **números de Perrin** están definidos por la relación de recurrencia*
  
 $P_0 = 3$
-\(P_1 = 0\) 
-\(P_2 = 2 ...\)          
-  \[ P_n = P_{n-2} + P_{n-3} \text{ si } n > 2 \]
+$P_1 = 0$
+$P_2 = 2 ...$
 
+$P_n = P_{n-2} + P_{n-3} \text{ si } n > 2$
+  
 *La serie sería:  3, 0, 2, 3, 2, 5, 5, 7, 10, 12, 17, 22, 29, 39...*
 
 *Determine el n-ésimo número de Perrín (n≥0).*
@@ -31,11 +32,13 @@ n
 
 **Proceso mental:**
 Es una sucesión infinita de números naturales introducida por François Oliver Raoul Perrin en 1899. Tiene su origen en un trabajo de 1876 de Édouard Lucas. Para explicar la regla de generación de los números, primero se debe inicializar los valores de P0=3, P1=0 y P2=2
- \[ P_n = P_{n-2} + P_{n-3} \text{ si } n > 2 \]
+
+$P_n = P_{n-2} + P_{n-3} \text{ si } n > 2$
 
 Ejemplo
 
- \( P_0 = 3 \) \( P_1 = 0 \) \( P_2 = 2\) 
+$P_0 = 3$ $P_1 = 0$ $P_2 = 2$ 
+
 \(P_3 = (P_1 + P_0) = 0+3 = 3\)
 \(P_4 = (P_2 + P_1) = 2+0 = 2\)
 \(P_5 = (P_3 + P_2) = 3+2 = 5\)
