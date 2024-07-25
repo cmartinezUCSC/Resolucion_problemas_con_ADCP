@@ -3,9 +3,9 @@
 
 #### Dificultad: fácil
 
-## Descripcion
+## Descripción
 
-*A un estudiante de 1° básico se le dio como desafío calcular el producto de 2 números no negativos distintos de 0, a pesar de que el estudiante sólo sabe hacer sumas simples. Ayúdale a entender la multiplicación y resolver el problema a partir de lo que sabe.* 
+*A un estudiante de 1° básico se le dio como desafío calcular el producto de 2 números no negativos distintos de 0, a pesar de que el estudiante solo sabe hacer sumas simples. Ayúdale a entender la multiplicación y a resolver el problema a partir de lo que sabe.* 
 
 | Entrada | Salida                   |
 |---------|--------------------------|
@@ -17,13 +17,13 @@
 
 # ADCP
 
-## (A)nalisis
+## (A)nálisis
 
 ###### Entradas: 
 Un número (n)
 
 ###### Proceso:
-Proceso mental: Recuerden que en este apartado ustedes pueden incluir una oda, una fórmula, un mapa conceptual, un esquema, un gráfico, una secuencia numérica, un diagrama de eventos...un dibujo. Todo aquello que se relacione con sus experiencias de aprendizajes previas y que le ayude a entender el problema y a proponer una solución. Como el problema menciona a un estudiante de primero básico, que por currículum sólo sabe realizar sumas simples, debemos explicarle la operación multiplicación a través de la siguiente analogía: 
+Proceso mental: Recuerden que en este apartado ustedes pueden incluir una oda, una fórmula, un mapa conceptual, un esquema, un gráfico, una secuencia numérica, un diagrama de eventos... un dibujo. Todo aquello que se relacione con sus experiencias de aprendizajes previas y que le ayude a entender el problema y a proponer una solución. Como el problema menciona a un estudiante de primero básico, que por currículum solo sabe realizar sumas simples, debemos explicarle la operación multiplicación a través de la siguiente analogía: 
 
 Consideremos casos
 
