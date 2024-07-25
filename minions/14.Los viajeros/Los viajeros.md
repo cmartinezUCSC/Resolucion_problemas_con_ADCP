@@ -68,8 +68,11 @@ S debe tener entre 1 a 5 caracteres, estos caracteres deben ser caracteres alfab
 ## En Diagrama N-S
 
 ![](Imagen1.png)
+
 ![](Imagen2.png)
+
 ![](Imagen3.png)
+
 ![](Imagen4.png)
 
 # (C)odificación en C
