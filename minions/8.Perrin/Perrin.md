@@ -4,9 +4,10 @@
 
 ## Descripcion
 *En matemáticas, los **números de Perrin** están definidos por la relación de recurrencia*
-  \( P_0 = 3 \) 
-  \( P_1 = 0 \) 
-  \( P_2 = 2 ...\)          
+ 
+$P_0 = 3$
+\(P_1 = 0\) 
+\(P_2 = 2 ...\)          
   \[ P_n = P_{n-2} + P_{n-3} \text{ si } n > 2 \]
 
 *La serie sería:  3, 0, 2, 3, 2, 5, 5, 7, 10, 12, 17, 22, 29, 39...*
