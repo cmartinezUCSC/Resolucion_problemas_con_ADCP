@@ -41,10 +41,10 @@ n≥1
 
 # (D)iseño (Lenguaje Natural semi estructurado):
 
-    *1.	Definir 3 variables (n, i, sumaresultado)* 
-    *2.	Comprobar que **n** sea mayor a 0.* 
-    *3.	Hacer uso de un ciclo repetitivo de  tamaño n (dado que se conoce el número de iteraciones) incluyendo la instrucción sumaresultado = sumaresultado + i (i actúa como iterador con i  1..n; sumaresultado actúa como acumulador, observe el efecto de estar a ambos lados de la asignación).* 
-    *4.	Finalmente, imprimir sumaresultado*
+*1.	Definir 3 variables (n, i, sumaresultado)* 
+*2.	Comprobar que **n** sea mayor a 0.* 
+*3.	Hacer uso de un ciclo repetitivo de  tamaño n (dado que se conoce el número de iteraciones) incluyendo la instrucción **sumaresultado = sumaresultado + i** (i actúa como iterador con i  [1..n]; sumaresultado actúa como acumulador, observe el efecto de estar a ambos lados de la asignación).*
+*4.	Finalmente, imprimir **sumaresultado***
     
 *Y en Pseudocódigo quedaría así (observe la diferencia con el lenguaje natural semi estructurado):*
 
