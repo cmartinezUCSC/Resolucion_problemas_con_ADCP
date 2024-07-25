@@ -4,7 +4,7 @@
 
 ## Descripcion
 
-\[ b_n = \frac{b_{n-1} + 1}{b_{n-2}}, \quad \forall n \geq 3 \]
+$$b_n = \frac{b_{n-1} + 1}{b_{n-2}}, \quad \forall n \geq 3$$
 
 *Esta sucesión se denomina así ya que para avanzar a través de sus términos basta con hacer “rodar” dos consecutivos. Por ejemplo, si tomamos los primeros términos de la sucesión 2 y 3 se obtiene que el siguiente es 2, sorprendentemente la generación es cíclica:*
 
