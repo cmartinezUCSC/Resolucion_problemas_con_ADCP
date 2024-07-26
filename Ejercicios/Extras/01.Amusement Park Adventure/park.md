@@ -1,6 +1,6 @@
-# origen 
+# Origen 
 https://codeforces.com/gym/104555/problem/A
-# ejercicio
+# Ejercicio
 
 #### Dificultad: facil 
 
