@@ -1,9 +1,9 @@
-# origen 
+# Origen 
 [origen](https://codeforces.com/gym/104146/problem/B)
 
 traducido por Vicente Bastidas
 
-# Ejercicio
+# Ejercicio 2
 
 #### dificultad: facil 
 
