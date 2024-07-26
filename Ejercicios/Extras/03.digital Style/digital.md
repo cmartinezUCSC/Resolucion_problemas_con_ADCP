@@ -4,7 +4,7 @@ https://codeforces.com/gym/104146/problem/D
 
 traducido por Vicente Bastidas
 
-# Ejercicio
+# Ejercicio 3
 
 #### dificultad: facil 
 
