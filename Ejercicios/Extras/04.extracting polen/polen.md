@@ -1,6 +1,7 @@
-# origen 
+# Origen 
 [origen ](https://codeforces.com/gym/104555/problem/E)
-# ejercicio
+
+# Ejercicio
 
 #### dificultad: medio 
 
@@ -16,6 +17,7 @@ A la abeja Gertrude estas reglas le parecen muy extrañas, asi que busco tu ayud
 la K-esima posicion de la fila.
 
 # ADCP
+
 ## (A)nálisis
 
 ###### entradas
