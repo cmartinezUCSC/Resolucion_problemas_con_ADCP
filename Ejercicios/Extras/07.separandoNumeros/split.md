@@ -21,9 +21,9 @@ la salida de cada caso de prueba consiste en una linea que contiene los numeros 
 
 |Casos de prueba|Salidas de prueba|
 |---------------|-----------------|
-|       6       |    2 ,    4     |
-|       7       |    5  ,   2     |
-|       13      |    9   ,  4     |
+|       6       |    2         4  |
+|       7       |    5         2  |
+|       13      |    9         4  |
 |       0       |                 |  
 
 
