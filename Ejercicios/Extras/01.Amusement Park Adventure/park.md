@@ -1,6 +1,7 @@
 # Origen 
 https://codeforces.com/gym/104555/problem/A
-# Ejercicio
+
+# Ejercicio 1
 
 #### Dificultad: facil 
 
