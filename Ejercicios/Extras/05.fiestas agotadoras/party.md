@@ -1,6 +1,7 @@
-# fuente 
+# origen 
 [origen](https://codeforces.com/gym/104555/problem/F)
-# ejercicio
+
+# Ejercicio 5
 
 #### dificultad: fácil 
 
