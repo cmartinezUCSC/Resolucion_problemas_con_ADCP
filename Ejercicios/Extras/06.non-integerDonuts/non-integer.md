@@ -1,9 +1,9 @@
-# origen 
+# Origen 
 [competencia](https://codeforces.com/gym/103185) letra N 
 
 traducido e interpretado por Vicente Bastidas
 
-# Ejercicio
+# Ejercicio 6
 
 #### dificultad: facil 
 
