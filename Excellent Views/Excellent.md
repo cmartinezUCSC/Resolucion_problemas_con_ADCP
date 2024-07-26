@@ -4,6 +4,12 @@
 traducido por Vicente Bastidas 
 # ejercicio
 
+ciudad brillante es una hermosa ciudad conocida por solo tres cosas, por su archiconocida por el hecho de que cada edificio tiene distintos tamaños y las maravillosas vistas que se pueden ver desde arriba de los edificios.
+
+
+
+
+
 #### dificultad: media 
 
 ## descripición 
