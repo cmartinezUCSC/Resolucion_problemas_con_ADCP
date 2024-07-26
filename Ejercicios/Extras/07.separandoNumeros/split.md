@@ -1,8 +1,8 @@
-# fuente 
+# Origen 
 [origen](https://vjudge.net/problem/UVA-11933)
 
 traducido por Vicente Bastidas  
-# Ejercicio
+# Ejercicio 7
 
 #### dificultad: dificil 
 
@@ -19,16 +19,14 @@ los inputs se terminan cuando una linea contenga un 0 el cual no debe ser proces
 Output
 la salida de cada caso de prueba consiste en una linea que contiene los numeros **a** y **b** en su version decimal separados solo por un espacio.
 
-casos de prueba 
-6
-7
-13
-0
+|Casos de prueba|Salidas de prueba|
+|---------------|-----------------|
+|       6       |    2 ,    4     |
+|       7       |    5  ,   2     |
+|       13      |    9   ,  4     |
+|       0       |                 |  
 
-salidas de prueba
-2 4 
-5 2 
-9 4 
+
 # ADCP
 
 ## (A)nálisis
