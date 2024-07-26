@@ -1,4 +1,4 @@
-# origen 
+# Origen 
 
 https://codeforces.com/gym/104146/problem/D
 
@@ -26,10 +26,10 @@ entrega un entero simple que sea el minimo entre los posibles estilos digitales 
 
 **ejemplo**
 
-|input | output|
-|---|---|
-|42 47| 8|
-|225 228| 20|
+|input     | output|
+|----------|-------|
+|42 47     |    8  |
+|225 228   |   20  |
 
 # ADCP
 
