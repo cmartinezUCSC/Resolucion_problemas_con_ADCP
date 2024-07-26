@@ -1,7 +1,7 @@
 # Origen 
 [origen ](https://codeforces.com/gym/104555/problem/E)
 
-# Ejercicio
+# Ejercicio 4
 
 #### dificultad: medio 
 
