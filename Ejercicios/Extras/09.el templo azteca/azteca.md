@@ -1,11 +1,11 @@
-# fuente 
+# Origen  
     reinterpretado a partir de ejercicios similares en el ramo de programacion 2 
     reescrito por vicente bastidas.
-# ejercicio
+# Ejercicio 9
 
 #### dificultad: media 
 
-## descripición 
+## Descripición 
 
 En un pequeño pueblo rodeado de colinas verdes y ríos cristalinos, vivía Mateo, un joven apasionado por resolver acertijos y retos de lógica. Desde pequeño, Mateo soñaba con convertirse en un programador competitivo reconocido a nivel mundial. Pasaba sus días entre las páginas de libros de algoritmos y prácticas intensas en su computadora.
 
