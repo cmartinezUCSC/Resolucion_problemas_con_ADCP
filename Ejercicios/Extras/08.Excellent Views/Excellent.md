@@ -103,3 +103,19 @@ print(rspsts)
 
 ```
 ## (P)ruebas 
+
+prueba 1
+entrada: 
+> 10
+> 23 20 7 30 43 70 5 42 67 10
+
+salida:
+> 3 4 3 2 1 0 1 2 1 2
+
+prueba 2
+entrada: 
+> 5 
+> 11 12 9 13 8 12
+
+salida: 
+> 2 1 1 0 1

@@ -36,7 +36,7 @@ for i in range(n):
             mejor_vista = mas_grande
             respuesta = respuesta + 1
     
-    #agregamos las respuestas a un string 
+    #agregamos las respuestas a un string 5
     rspsts +=str(respuesta)
     # si no es el ultimo elemento agregamos un espacio
     if i<n:
