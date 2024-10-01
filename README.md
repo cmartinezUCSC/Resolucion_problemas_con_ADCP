@@ -1,5 +1,5 @@
 ## Repositorio complementario para e-book 
-# Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en C y Python.  
+# Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en lenguajes C y Python.  
 
 ![tutorBot+](https://github.com/cmartinezUCSC/tutorBot-/blob/main/AlienitoProgramador.png)
 
