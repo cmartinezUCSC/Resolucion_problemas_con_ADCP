@@ -1,6 +1,6 @@
-# fuente 
+# Plantilla ADCP 
 
-# ejercicio
+# Problema [Nombre problema]
 
 #### dificultad: fácil 
 
