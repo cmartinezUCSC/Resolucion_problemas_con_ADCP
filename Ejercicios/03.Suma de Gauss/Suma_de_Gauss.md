@@ -18,10 +18,10 @@
 ## (A)nalisis
 
 ###### Entradas:   
-ota superior (n)
+N 
 
 **Proceso mental:** 
-¿Se deben sumar todos los números comprendidos entre 1 y n? ¿Qué significa?:
+¿Se deben sumar todos los números comprendidos entre 1 y N? ¿Qué significa?:
 
 **Casos particulares:**
 
@@ -30,7 +30,7 @@ Para n=2, se debería acumular: 1+2 = 3
 Para n=5, se debería acumular: 1+2+3+4+5 = 15  
 
 **Generalizando:**
-Por lo tanto, para n = k, acumular: 1+2+3+...+k    
+Por lo tanto, para n = k, se debería acumular: 1+2+3+...+k    
 
 ###### Salida: 
 1+2+3+…+n
@@ -42,7 +42,7 @@ n≥1
 
 1.	Definir 3 variables (n, i, sumaresultado)
 2.	Comprobar que **n** sea mayor a 0.
-3.	Hacer uso de un ciclo repetitivo de  tamaño n (dado que se conoce el número de iteraciones) incluyendo la instrucción **sumaresultado = sumaresultado + i** (i actúa como iterador con i  [1..n]; sumaresultado actúa como acumulador, observe el efecto de estar a ambos lados de la asignación).
+3.	Hacer uso de un ciclo repetitivo de  tamaño n (dado que se conoce el número de iteraciones) incluyendo la instrucción **sumaresultado = sumaresultado + i** (i actúa como iterador con i &#8712; [1..n]; sumaresultado actúa como acumulador, observe el efecto de estar a ambos lados de la asignación).
 4.	Finalmente, imprimir **sumaresultado**
     
 *Y en Pseudocódigo quedaría así (observe la diferencia con el lenguaje natural semi estructurado):*
