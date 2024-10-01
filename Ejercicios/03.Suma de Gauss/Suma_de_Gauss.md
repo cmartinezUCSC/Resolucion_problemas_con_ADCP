@@ -1,4 +1,4 @@
-# 3.Suma de Gauss 
+# 3. Suma de Gauss 
 
 #### Dificultad: fácil
 
