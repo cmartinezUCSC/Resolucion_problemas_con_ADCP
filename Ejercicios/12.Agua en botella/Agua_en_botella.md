@@ -1,5 +1,5 @@
 
-# 12.Agua en bottella
+# 12. Agua en botella
 
 #### Dificultad: fácil
 
