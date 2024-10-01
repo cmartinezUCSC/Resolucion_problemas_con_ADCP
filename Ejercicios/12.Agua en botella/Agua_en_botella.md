@@ -5,7 +5,7 @@
 
 ## Descripcion
 
-*En algún lugar del mundo existen **n** personas en una fila para obtener agua, la i-ésima quiere llenar su botella de ci litros. Cuando se acaba el balde de agua del dispensador de agua (Cada balde de agua proporciona C litros de agua), quien esté utilizando el dispensador de agua (incluido el último) sustituirá el balde del dispensador por un balde nuevo o agua, incluso si tiene suficiente agua. Luego se va inmediatamente, por lo que uno puede irse con menos agua de la que quiere.*
+*En algún lugar del mundo existen **n** personas en una fila para obtener agua, la i-ésima quiere llenar su botella de **$c_i$** litros. Cuando se acaba el balde de agua del dispensador de agua (Cada balde de agua proporciona **C** litros de agua), quien esté utilizando el dispensador de agua (incluido el último) sustituirá el balde del dispensador por un balde nuevo o agua, incluso si tiene suficiente agua. Luego se va inmediatamente, por lo que uno puede irse con menos agua de la que quiere.*
     
 *Ahora se requiere conocer cuántos baldes de agua se necesitan (incluido el primer balde).*
 
