@@ -10,7 +10,7 @@
 | 3       | 6                   |
 | 2       | 3                   |
 | 5       | 15                  |
-| -1      | ERROR, debe ser >= 0 |
+| -1      | ERROR, debe ser>= 0 |
 | 0       | 0                   |
 
 # ADCP
@@ -25,13 +25,12 @@ ota superior (n)
 
 **Casos particulares:**
 
-Para n=1, se debería acumular 1
-Para n=2, se debería acumular: 1+2 = 3
-Para n=5, se debería acumular: 1+2+3+4+5 = 15
+Para n=1, se debería acumular 1  
+Para n=2, se debería acumular: 1+2 = 3  
+Para n=5, se debería acumular: 1+2+3+4+5 = 15  
 
 **Generalizando:**
-
-Por lo tanto, para n = k, acumular: 1+2+3+...+k  
+Por lo tanto, para n = k, acumular: 1+2+3+...+k    
 
 ###### Salida: 
 1+2+3+…+n
