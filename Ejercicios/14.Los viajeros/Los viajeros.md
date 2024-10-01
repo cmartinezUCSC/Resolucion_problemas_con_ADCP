@@ -1,4 +1,4 @@
-# 14.Los viajeros
+# 14. Los viajeros
 
 #### Dificultad: fácil
 
@@ -22,7 +22,6 @@ Un string S conteniendo caracteres alfabéticos y/o punto (.)
 
 
 ###### Proceso:
-
 Lo primero que podemos filtrar, es el caso de que el nombre ingresado devuelva "SOMETHING'S WRONG", eso en primer momento lo podemos solucionar de forma muy sencilla con una pregunta, ¿el string que nos entregan tiene 3 ó 5 caracteres? si la respuesta es no, imprimimos "SOMETHING'S WRONG" y terminaríamos el ejercicio, si la respuesta en un si por otro lado, podríamos ver como progresa, primero viendo con el caso de que fuera de solo 3 caracteres de largo.
 
 Evaluaremos los distintos casos que se pueden dar, para ello usamos a Bob, como Bob solo tiene 3 caracteres podríamos comparar los posibles casos y compararlos uno a uno.
@@ -52,7 +51,6 @@ Evaluaremos los distintos casos que se pueden dar, para ello usamos a Bob, como 
 
 
 ###### Salida: 
-
 Se asume el dueño de la maleta que puede ser Alice, Cindy o Bob entonces para la salida tenemos 3 opciones posibles,
 •	Si con las letras visibles solo puede ser uno de los 3 nombres entonces se imprime el nombre.
 •	Si existiera más de una posibilidad se imprime CAN'T TELL
@@ -60,8 +58,7 @@ Se asume el dueño de la maleta que puede ser Alice, Cindy o Bob entonces para l
  
 
 ###### Restricciones: 
-
-S debe tener entre 1 a 5 caracteres, estos caracteres deben ser caracteres alfabéticos en mayúsculas o minúsculas o puede ser un punto
+**S** debe tener entre 1 a 5 caracteres, estos caracteres deben ser caracteres alfabéticos en mayúsculas o minúsculas o puede ser un punto
 
 # (D)iseño
 
