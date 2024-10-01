@@ -7,7 +7,7 @@ Bienvenido al interesante mundo de la resolución de problemas. Este espacio cor
 
 En el mundo de la informática, la capacidad de resolver problemas de manera eficiente y estructurada es esencial. El método **ADCP** se convierte en una estrategia fundamental para los estudiantes, ya que les permite reducir problemas complejos a otros más pequeños y manejables, facilitando así la creación de soluciones algorítmicas. Este estrategia fue propuesta por   [Martínez and Muñoz (2014)](http://www.cdio.org/node/6084) y se basa en el modelo de desarrollo clásico de software.
 
-![Etapas ADPC](https://markdown-here.com/img/ADCP.png)
+![Etapas ADPC]([https://markdown-here.com/img/](https://github.com/cmartinezUCSC/tutorBot-/blob/main/ADCP.png)
 
 A lo largo de estas páginas, exploraremos el proceso de **ANÁLISIS, DISEÑO, CONSTRUCCIÓN y PRUEBAS (ADCP)** en la resolución de problemas, haciendo uso de dos lenguajes de programación ampliamente utilizados: C y Python. Estos lenguajes, aunque distintos en su sintaxis y orientaciones, comparten la capacidad de convertir ideas abstractas en soluciones concretas mediante la implementación de código.
 
