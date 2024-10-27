@@ -5,13 +5,13 @@ traducido por Vicente Bastidas
 
 # Ejercicio 2
 
-#### dificultad: facil 
+#### Dificultad: fácil 
 
 ## Descripición 
 
 Alicia ama las trenzas,  las ama tanto que todos los que la conocen solo la han visto con algun tipo de trenza.
 
-Un dia Pepito le pregunto a Alicia si podria enseñarle como hacer una trenza simple, Alicia emocionada le dio la siguiente instruccion.
+Un dia, Pepito le pregunto a Alicia si podria enseñarle como hacer una trenza simple, Alicia emocionada le dio la siguiente instruccion.
 - separa el pelo en 3 secciones 
 - por **n** veces, toma dos secciones adyacentes y cruzalas una tras la otra
   - alternamos entre cruzar izquierda sobre centro (left-over-middle) y derecha sobre centro (right-over-middle)
