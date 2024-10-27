@@ -1,4 +1,4 @@
-# Origen 
+# Fuente  
 [origen ](https://codeforces.com/gym/104555/problem/E)
 
 # Ejercicio 4
