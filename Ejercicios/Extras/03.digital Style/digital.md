@@ -2,7 +2,7 @@
 
 https://codeforces.com/gym/104146/problem/D
 
-traducido por Vicente Bastidas
+Reinterpretado por por Vicente Bastidas
 
 # Ejercicio 3
 
