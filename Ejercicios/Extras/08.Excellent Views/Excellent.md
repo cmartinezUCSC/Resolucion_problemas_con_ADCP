@@ -1,12 +1,12 @@
-# origen 
+# Fuente 
 [origen](https://codeforces.com/gym/103185/problem/E)
 
-traducido por Vicente Bastidas 
-# ejercicio
+Traducido y reinterpretado por Vicente Bastidas 
 
 #### dificultad: media 
 
-## descripición 
+## Descripición 
+
 Ciudad brillante, es una hermosa ciudad conocida por 3 cosas, por su reconocida unica calle, por el hecho de que cada edificio tiene distintos tamaños y las maravillosas vistas que se pueden ver desde arriba de los edificios.
 
 Desde el comienzo de la pandemia la canidad de turisstas a disminuido considerablemente pero tu como el buen periodista que eres sabes que si haces el mejor post este atraera turistas y salvara de la ruina economica a tu ineficiente ciudad, miserablemente te falta informacion acerca de tu ciudad. 
