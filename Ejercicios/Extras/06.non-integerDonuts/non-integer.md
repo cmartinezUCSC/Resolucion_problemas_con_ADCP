@@ -1,4 +1,4 @@
-# Origen 
+# Fuente 
 [competencia](https://codeforces.com/gym/103185) letra N 
 
 traducido e interpretado por Vicente Bastidas
