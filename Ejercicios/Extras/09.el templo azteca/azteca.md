@@ -1,4 +1,4 @@
-# Origen  
+# Fuente  
     reinterpretado a partir de ejercicios similares en el ramo de programacion 2 
  
 # Ejercicio 9
