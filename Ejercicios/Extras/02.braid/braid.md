@@ -1,4 +1,4 @@
-# Origen 
+# Fuente 
 [origen](https://codeforces.com/gym/104146/problem/B)
 
 traducido por Vicente Bastidas
