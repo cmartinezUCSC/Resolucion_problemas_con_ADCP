@@ -1,6 +1,6 @@
 # Origen  
     reinterpretado a partir de ejercicios similares en el ramo de programacion 2 
-    reescrito por vicente bastidas.
+ 
 # Ejercicio 9
 
 #### dificultad: media 
