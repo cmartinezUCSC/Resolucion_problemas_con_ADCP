@@ -1,14 +1,14 @@
 # Origen 
 [origen](https://vjudge.net/problem/UVA-11933)
 
-traducido por Vicente Bastidas  
+Traducido y reinterpretado por Vicente Bastidas  
 # Ejercicio 7
 
-#### dificultad: dificil 
+#### dificultad: difícil 
 
 ## Descripición 
 
-definimos la operacion de dividir un numero binario N en dos numeros **a** y **b** es de la siguiente forma. Definimos 0<= i1 <= i2 < ... < ik como el indice de los bits partiendo por el primer indice que sea 1. los indices que perteneceran a **a** seran de la forma i1,i3,... y los indices que perteneceran a **b** seran i2,i4,...
+Definimos la operacion de dividir un numero binario N en dos numeros **a** y **b** es de la siguiente forma. Definimos 0<= i1 <= i2 < ... < ik como el indice de los bits partiendo por el primer indice que sea 1. los indices que perteneceran a **a** seran de la forma i1,i3,... y los indices que perteneceran a **b** seran i2,i4,...
 por ejemplo si N es 437 en binario quedaria como 110110101, entonces los resultados serian **a** = 010010001 = 145 y **b** = 100100100 = 292.
 
 Input
