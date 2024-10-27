@@ -1,4 +1,4 @@
-# Origen 
+# Fuente 
 https://codeforces.com/gym/104555/problem/A
 
 # Ejercicio 1
