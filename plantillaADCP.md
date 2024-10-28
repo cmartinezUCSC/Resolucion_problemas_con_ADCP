@@ -1,10 +1,10 @@
 # Plantilla ADCP 
-
+# Fuente
 # Problema [Nombre problema]
 
-#### dificultad: fácil 
+#### Dificultad: {fácil, medio, difícil} 
 
-## descripición 
+## Descripición 
 
 # ADCP
 
