@@ -1,7 +1,7 @@
 ## Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en lenguajes C y Python.
 ### [Repositorio complementario para e-book]
 
-![TutorBot+](https://github.com/cmartinezUCSC/Resolucion_problemas_con_ADCP/blob/main/.vscode/AlienitoProgramador.png)
+![TutorBot+](https://github.com/cmartinezUCSC/Resolucion_problemas_con_ADCP/blob/main/.vscode/Alienito portadaFinal.png)
 
 Bienvenido al interesante mundo de la resolución de problemas. Este espacio corresponde al repositorio del e-book diseñado para aquellas personas, estudiantes o no, que desean adentrarse en la programación y desarrollar habilidades de pensamiento computacional, que incluye lógica, abstracción, capacidad de dividir para conquistar, análisis, identificación de patrones y toma de decisiones.
 
