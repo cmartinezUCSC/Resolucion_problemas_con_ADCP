@@ -1,5 +1,5 @@
-### Repositorio complementario para e-book 
-### Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en lenguajes C y Python.  
+## Resolución de problemas mediante ANÁLISIS-DISEÑO-CONSTRUCCIÓN-PRUEBAS (ADCP): Implementación en lenguajes C y Python.
+### [Repositorio complementario para e-book]
 
 ![TutorBot+](https://github.com/cmartinezUCSC/Resolucion_problemas_con_ADCP/blob/main/.vscode/AlienitoProgramador.png)
 
@@ -18,8 +18,6 @@ Prepárate para embarcarte en un viaje que te llevará desde la comprensión de 
 Dentro de los problemas encontramos unos de creación propia, otros problemas clásicos y otros seleccionados desde prestigiosas Plataformas de Programación Competitivias mundiales. Las soluciones basadas en **ADCP** fueron desarrolladas por la profesora Claudia Martínez-Martínez y un staff de ayudantes que han hecho su aporte a lo largo del tiempo.
 
 ¡Que estos recursos sean tu guía mientras te sumerges en el universo de la computación y descubres cómo transformar problemas en soluciones algorítmicas! 
-
-
 
 La profesora Claudia
 cmartinez@ucsc.cl
