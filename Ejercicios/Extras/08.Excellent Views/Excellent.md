@@ -26,7 +26,7 @@ asi que con esa informacion lo tienes claro, tienes que escribir en tu post cuan
 |23 20 7 30 43 70 5 42 67 10 | | 
 # ADCP
 
-## (A)nalisis
+## (A)nálisis
 
 ###### entradas
 
