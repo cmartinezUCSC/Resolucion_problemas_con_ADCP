@@ -1,6 +1,7 @@
 # Plantilla ADCP 
 
-# Problema [Nombre problema]  Fuente: [mencionar autor o web si corresponde]
+# Problema [Nombre problema]  
+# Fuente: [mencionar autor o web si corresponde]
 
 #### Dificultad: {fácil, medio, difícil} 
 
