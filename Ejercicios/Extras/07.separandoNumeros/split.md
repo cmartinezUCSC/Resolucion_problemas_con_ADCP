@@ -1,4 +1,4 @@
-# Origen 
+# Fuente 
 [origen](https://vjudge.net/problem/UVA-11933)
 
 Traducido y reinterpretado por Vicente Bastidas  
