@@ -3,7 +3,7 @@ https://codeforces.com/gym/104555/problem/A
 
 # Ejercicio 1
 
-#### Dificultad: facil 
+#### Dificultad: fácil 
 
 ## Descripción
 
@@ -38,7 +38,7 @@ H no sera mayor a 200
 cada elemento An estara entre 90 y 200 
 
 ###### proceso
-viendo este ejercicio podriamos simplemente evaluar caso a caso la altura de cada juego y revisar si cumplimos la condicion de que carlitos tiene que ser mas alto que la altura que pide por lo que podemos asumir que carlitos mide 160 cm y realizar el siguiente plantemiento
+Analizando  este ejercicio podriamos simplemente evaluar caso a caso la altura de cada juego y revisar si cumplimos la condicion de que carlitos tiene que ser mas alto que la altura que pide por lo que podemos asumir que carlitos mide 160 cm y realizar el siguiente plantemiento
 ![](proceso.png)
 
 ##### salida 
@@ -66,3 +66,4 @@ for i in alturas: #luego recorremos
 print(resp)
 ```
 ## (P)ruebas 
+Define tus propios casos de prueba
