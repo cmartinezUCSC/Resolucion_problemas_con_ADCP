@@ -2,11 +2,11 @@
 
 https://codeforces.com/gym/104146/problem/D
 
-Reinterpretado por por Vicente Bastidas
+Reinterpretado por Vicente Bastidas
 
 # Ejercicio 3
 
-#### dificultad: facil 
+#### dificultad: fácil 
 
 ## Descripición 
 En el mundo digital, solo existen 3 cosas para hacer.
