@@ -1,6 +1,6 @@
 # Plantilla ADCP 
-#### Fuente
-# Problema [Nombre problema]
+
+# Problema [Nombre problema]  Fuente: [mencionar autor o web si corresponde]
 
 #### Dificultad: {fácil, medio, difícil} 
 
@@ -8,7 +8,7 @@
 
 # ADCP
 
-## (A)nalisis
+## (A)nálisis
 
 ###### entradas
 ###### proceso
