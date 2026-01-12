@@ -19,6 +19,6 @@ Dentro de los problemas encontramos unos de creación propia, otros problemas cl
 
 ¡Que estos recursos sean tu guía mientras te sumerges en el universo de la computación y descubres cómo transformar problemas en soluciones algorítmicas! 
 
-La profesora Claudia
+La profesora Claudia Martínez-Araneda
 cmartinez@ucsc.cl
 ```
